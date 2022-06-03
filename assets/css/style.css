@@ -8,7 +8,7 @@ body {
     font-size: 100%;
     list-style: none;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    padding-top: 6em;
+    padding-top: 5em;
 }
 
 li, ol, ul, a {
@@ -45,7 +45,7 @@ h3 {
     position: fixed;
     top: 0;
     background-color: whitesmoke;
-    box-shadow: 1px 1px 20px 1px rgb(223, 223, 223);
+    box-shadow: 1px 1px 20px 1px rgba(223, 223, 223, 0.5);
     z-index: 9999;
 }
 
@@ -83,4 +83,21 @@ h3 {
 .container {
     width: 100vw;
     height: 100vh;
+    display: flex;
+}
+
+.container_left, .container_right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_left {
+    background-color: #006161;
+}
+
+.container_right {
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("") no-repeat center center fixed;
+    background-size: cover;
 }
