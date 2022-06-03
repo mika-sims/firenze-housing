@@ -11,7 +11,10 @@ body {
     padding-top: 5em;
 }
 
-li, ol, ul, a {
+li,
+ol,
+ul,
+a {
     text-decoration: none;
     list-style: none;
     margin: 0;
@@ -63,7 +66,6 @@ h3 {
 .nav-menu {
     display: flex;
     flex-direction: row;
-    margin: auto;
 }
 
 .nav-menu li {
@@ -74,7 +76,7 @@ h3 {
     text-transform: uppercase;
     color: #222222;
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 
@@ -86,7 +88,8 @@ h3 {
     display: flex;
 }
 
-.container_left, .container_right {
+.container_left,
+.container_right {
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -132,22 +135,59 @@ h3 {
 
 /* ========================= Media queries  ========================= */
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {}
 
-}
-
-@media screen and (min-width: 425px) {
-
-}
+@media screen and (min-width: 425px) {}
 
 @media screen and (min-width: 768px) {
 
+    /* ===== Header/Navbar section ===== */
+
+
+    .nav-bar {
+        flex-direction: row;
+        margin: 1em;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 12em;
+    }
+
+    .nav-menu a {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width: 1024px) {
 
+    /* ===== Header/Navbar section ===== */
+
+    .logo {
+        width: 14em;
+    }
+
+    .nav-menu a {
+        font-size: 1.5em;
+    }
+
 }
 
 @media screen and (min-width: 1440px) {
-    
+
+    /* ===== Header/Navbar section ===== */
+
+    .logo {
+        width: 15em;
+        margin: auto 2.5em;
+    }
+
+    .nav-menu li {
+        margin: auto 3em;
+    }
+
+    .nav-menu a {
+        font-size: 1.7em;
+    }
+
 }
