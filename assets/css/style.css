@@ -5,11 +5,17 @@
 body {
     margin: 0;
     padding: 0;
-    border: 0;
     font-size: 100%;
     list-style: none;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     padding-top: 6em;
+}
+
+li, ol, ul, a {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -36,7 +42,6 @@ h3 {
 #header {
     width: 100vw;
     height: 5em;
-    padding: .5em 0;
     position: fixed;
     top: 0;
     background-color: whitesmoke;
@@ -52,16 +57,17 @@ h3 {
 
 .logo {
     width: 10em;
+    margin: .5em auto;
 }
 
 .nav-menu {
     display: flex;
     flex-direction: row;
-    margin-top: 1em;
+    margin: auto;
 }
 
 .nav-menu li {
-    margin: 0 1em;
+    margin: auto 1em;
 }
 
 .nav-menu a {
