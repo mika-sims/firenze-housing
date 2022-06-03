@@ -45,7 +45,7 @@ h3 {
     position: fixed;
     top: 0;
     background-color: whitesmoke;
-    box-shadow: 1px 1px 20px 1px rgba(223, 223, 223, 0.5);
+    box-shadow: 1px 1px 20px 1px rgba(223, 223, 223, 0.3);
     z-index: 9999;
 }
 
@@ -82,7 +82,7 @@ h3 {
 
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
 }
 
@@ -91,13 +91,40 @@ h3 {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container_left {
     background-color: #006161;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.container_left h2 {
+    margin-top: 6em;
+    font-size: .6em;
+    text-align: center;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+}
+
+.container_left a {
+    background-color: #ff8749d9;
+    color: black;
+    text-transform: uppercase;
+    padding: .6em 1em;
+    margin-bottom: 6em;
 }
 
 .container_right {
-    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../images/hero-bg.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/hero-bg.jpg") no-repeat center center fixed;
     background-size: cover;
+    color: #006161;
+}
+
+.container_right h1 {
+    margin-bottom: 7em;
+    line-height: 1.6em;
 }
