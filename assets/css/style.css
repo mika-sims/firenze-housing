@@ -98,6 +98,6 @@ h3 {
 }
 
 .container_right {
-    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("") no-repeat center center fixed;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../images/hero-bg.jpg") no-repeat center center fixed;
     background-size: cover;
 }
