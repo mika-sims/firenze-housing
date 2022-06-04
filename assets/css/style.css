@@ -13,7 +13,7 @@ body {
     list-style: none;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     padding-top: 5em;
-
+    scroll-behavior: smooth;
 }
 
 li,
@@ -111,11 +111,14 @@ h3 {
 }
 
 .container_left h2 {
-    margin-top: 6em;
-    font-size: .6em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 1em auto;
+    font-size: 1.5em;
     text-align: center;
     line-height: 1.2em;
     letter-spacing: 2px;
+    color: white;
+    font-weight: 300;
 }
 
 .container_left a {
@@ -123,7 +126,9 @@ h3 {
     color: black;
     text-transform: uppercase;
     padding: .6em 1em;
-    margin-bottom: 6em;
+    margin-bottom: 8em;
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 .container_right {
@@ -133,18 +138,19 @@ h3 {
 }
 
 .container_right h1 {
-    margin-bottom: 7em;
+    margin-bottom: 9em;
     line-height: 1.6em;
 }
 
 /* ===== Services section ===== */
 
-.flex-column {
+.container-fluid {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1em;
+
 }
 
 .bg-img {
@@ -152,7 +158,7 @@ h3 {
     background-size: cover;
 }
 
-.container.flex-column p {
+.container.container-fluid p {
     width: 100%;
     text-transform: uppercase;
     line-height: 1.5em;
@@ -189,9 +195,48 @@ h3 {
 
 /* ========================= Media queries  ========================= */
 
-@media screen and (min-width: 375px) {}
+@media screen and (min-width: 375px) {
 
-@media screen and (min-width: 425px) {}
+    /* ===== Header/Navbar section ===== */
+
+    .nav-menu a {
+        font-size: 1.2em;
+    }
+
+    /* ===== Hero section ===== */
+
+    .container_right h1 {
+        font-size: 1.7em;
+    }
+
+    .container_left img {
+        width: 8em;
+    }
+
+}
+
+@media screen and (min-width: 425px) {
+    /* ===== Header/Navbar section ===== */
+
+    .nav-menu a {
+        font-size: 1.3em;
+    }
+
+    /* ===== Hero section ===== */
+
+    .container_right h1 {
+        font-size: 1.9em;
+    }
+
+    .container_left img {
+        width: 9em;
+    }
+
+    .container_left a {
+        font-size: 1.4em;
+    }
+
+}
 
 @media screen and (min-width: 768px) {
 
@@ -210,6 +255,31 @@ h3 {
     .nav-menu a {
         font-size: 1.2em;
     }
+
+        /* ===== Hero section ===== */
+
+        .container_right h1 {
+            font-size: 3.5em;
+            margin-bottom: 4em;
+        }
+    
+        .container_left img {
+            width: 12em;
+            margin: 0;
+        }
+
+        .container_left h2 {
+            font-size: 1.8em;
+        }
+    
+        .container_left a {
+            font-size: 1.5em;
+            margin-bottom: 4em;
+        }
+
+        /* ===== Services section ===== */
+
+
 }
 
 @media screen and (min-width: 1024px) {
