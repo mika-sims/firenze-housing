@@ -177,6 +177,7 @@ h3 {
     border-radius: .5em;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.7);
+    margin: 1em 0;
 }
 
 .wrapper a {
@@ -256,29 +257,58 @@ h3 {
         font-size: 1.2em;
     }
 
-        /* ===== Hero section ===== */
+    /* ===== Hero section ===== */
 
-        .container_right h1 {
-            font-size: 3.5em;
-            margin-bottom: 4em;
-        }
-    
-        .container_left img {
-            width: 12em;
-            margin: 0;
-        }
+    .container_right h1 {
+        font-size: 3.5em;
+        margin-bottom: 4em;
+    }
 
-        .container_left h2 {
-            font-size: 1.8em;
-        }
-    
-        .container_left a {
-            font-size: 1.5em;
-            margin-bottom: 4em;
-        }
+    .container_left img {
+        width: 12em;
+        margin: 0;
+    }
 
-        /* ===== Services section ===== */
+    .container_left h2 {
+        font-size: 1.8em;
+    }
 
+    .container_left a {
+        font-size: 1.5em;
+        margin-bottom: 4em;
+    }
+
+    /* ===== Services section ===== */
+
+    .container.container-fluid h2 {
+        font-size: 2em;
+        margin-top: 2em;
+    }
+
+    .container.container-fluid p {
+        font-size: 1.8em;
+        margin-top: 1.8em;
+    }
+
+    .wrapper-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .wrapper {
+        height: 200px;
+        width: 120px;
+        margin: 2.5em 1em;
+    }
+
+    .wrapper a {
+        margin: 1em auto;
+    }
+
+    .fa-solid {
+        margin: 1.4em;
+        font-size: 1.4em;
+    }
 
 }
 
@@ -292,6 +322,28 @@ h3 {
 
     .nav-menu a {
         font-size: 1.5em;
+    }
+
+    /* ===== Hero section ===== */
+
+    .container_right h1 {
+        font-size: 4em;
+    }
+
+    /* ===== Services section ===== */
+
+    .wrapper {
+        margin: 4em;
+    }
+
+    .wrapper a {
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+    .fa-solid {
+        font-size: 1.8em;
+        margin: 1em 0;
     }
 
 }
@@ -311,6 +363,12 @@ h3 {
 
     .nav-menu a {
         font-size: 1.7em;
+    }
+
+    /* ===== Hero section ===== */
+
+    .container_right h1 {
+        font-size: 5em;
     }
 
 }
