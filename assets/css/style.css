@@ -234,9 +234,56 @@ h3 {
   
   .horizontal-line {
     width: 70%;
-    height: 2px;
+    height: 1px;
     background-color: #006161;
-    margin: 0 auto;
+    margin: .5em auto;
+  }
+
+  /* ===== Find us section ===== */
+
+  .find_us > .container{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .find_us_map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .illustration {
+    display: none;
+  }
+
+  address {
+      text-align: center;
+  }
+  
+  address a, p {
+    color: #222222;
+    line-height: 1.5em;
+  }
+  
+  .social-media-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2em auto;
+  }
+  
+  .fa-brands {
+    margin: 0 1.2em;
+    color: #242929;
+    font-size: 1.5em;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin: 1em auto;
   }
 
 /* ========================= Media queries  ========================= */
