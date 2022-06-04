@@ -44,6 +44,33 @@
         </nav>
     </header>
     <main>
+        <section id="form">
+            <h2>Contact Form</h2>
+            <form action="#" method="POST" id="contact-form">
+              <label for="name">Your First Name</label>
+              <input type="text" name="name" id="name" placeholder="Your First Name" required>
+        
+              <label for="lastname">Your Last Name</label>
+              <input type="text" name="lastname" id="lastname" placeholder="Your Last Name" required>
+        
+              <label for="email">Your Email</label>
+              <input type="email" name="email" id="email" placeholder="Your Email" required>
+        
+              <label for="services-select">Choose a service: </label>
+              <select id="services-select">
+                <optgroup label="Choose a service">
+                  <option>Apartment</option>
+                  <option>Single Bed Room</option>
+                  <option>Double Bed Room</option>
+                  <option>Storage</option>
+                </optgroup>
+              </select>
+        
+              <label for="message">Your message in detail</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+            </form>
+            <button class="form-btn" type="submit">Send</button>
+        </section>
         <footer>
             <div class="horizontal-line"></div>
             <address>
