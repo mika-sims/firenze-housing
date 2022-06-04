@@ -282,6 +282,297 @@ h3 {
     margin: 1em auto;
   }
 
+
+/* ========================= services.html  ========================= */
+
+/* ===== Hero section ===== */
+.hero {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+  
+  .hero-left {
+    width: 45vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #006161;
+  }
+  
+  .hero-right {
+    width: 55vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .hero-left h1 {
+    margin-top: 3em;
+    color: #eff0f1;
+  }
+  
+  .hero-right h1 {
+    margin-top: 5em;
+    color: #006161;
+  }
+
+  /* ====== General style ===== */
+
+.container-services {
+    margin: 1em auto 5em auto;
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2em;
+    border-bottom: 3px solid #242929;
+  }
+  
+  .price {
+    background-color: aquamarine;
+    width: fit-content;
+    height: fit-content;
+    text-align: start;
+    padding: .4em 1em;
+    margin: 1em 0 0 1em;
+  }
+  
+  
+  .info-box {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .align-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6%;
+  }
+  
+  .mid-line {
+    height: 8em;
+    width: 3px;
+    background-color: chocolate;
+  }
+  
+  .info-content {
+    flex: 1;
+    line-height: 2em;
+  }
+  
+  /* ====== Apartments section ====== */
+  
+  .apt-img-box {
+    width: 90vw;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .apt-img-box a {
+  
+    background-color: aquamarine;
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    align-self: flex-end;
+    padding: .4em 1em;
+    margin: 0 1em 1em 0;
+  }
+  
+  .content:nth-child(1) .apt-img-box {
+    background: url("../images/apt-img-1.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .content:nth-child(2) .apt-img-box {
+    background: url("../images/apt-img-2.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .content:nth-child(3) .apt-img-box {
+    background: url("../images/apt-img-3.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .content:nth-child(4) .apt-img-box {
+    background: url("../images/apt-img-4.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  /* ====== Single bed rooms section ====== */
+  
+  .single-img-box {
+    width: 90vw;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .single-img-box a {
+  
+    background-color: aquamarine;
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    align-self: flex-end;
+    padding: .4em 1em;
+    margin: 0 1em 1em 0;
+  }
+  
+  .content:nth-child(1) .single-img-box {
+    background: url("../images/single-bed-img-1.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .content:nth-child(2) .single-img-box {
+    background: url("../images/single-bed-img-2.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .content:nth-child(3) .single-img-box {
+    background: url("../images/single-bed-img-3.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .content:nth-child(4) .single-img-box {
+    background: url("../images/single-bed-img-4.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  
+  /* ====== Double bed rooms section ====== */
+  
+  .double-img-box {
+    width: 90vw;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .double-img-box a {
+  
+    background-color: aquamarine;
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    align-self: flex-end;
+    padding: .4em 1em;
+    margin: 0 1em 1em 0;
+  }
+  
+  .content:nth-child(1) .double-img-box {
+    background: url("../images/double-bed-img-1.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .content:nth-child(2) .double-img-box {
+    background: url("../images/double-bed-img-2.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .content:nth-child(3) .double-img-box {
+    background: url("../images/double-bed-img-3.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .content:nth-child(4) .double-img-box {
+    background: url("../images/double-bed-img-4.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  
+  /* ====== Storage section ====== */
+  
+  .storage-img-box {
+    width: 90vw;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .storage-img-box a {
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background-color: #ff8749;
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    align-self: flex-end;
+    padding: .3em 1em;
+    margin-top: .2em;
+  }
+  
+  .info-content-storage {
+    flex: 1;
+    line-height: 2em;
+  }
+  
+  .info-content-storage h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2em;
+    color: #303030;
+    margin-bottom: 2em;
+  }
+  
+  
+  .content:nth-child(1) .storage-img-box {
+    background: url("../images/packing.png") no-repeat center center;
+    background-size: contain;
+  
+  }
+  
+  .content:nth-child(2) .storage-img-box {
+    background: url("../images/pick-up.png") no-repeat center center;
+    background-size: contain;
+  
+  }
+  
+  .content:nth-child(3) .storage-img-box {
+    background: url("../images/storage.png") no-repeat center center;
+    background-size: contain;
+  
+  }
+  
+  .content:nth-child(4) .storage-img-box {
+    background: url("../images/delivery.png") no-repeat center center;
+    background-size: contain;
+  
+  }
+
 /* ========================= Media queries  ========================= */
 
 @media screen and (min-width: 375px) {
