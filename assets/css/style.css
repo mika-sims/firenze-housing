@@ -579,6 +579,101 @@ section h2 {
 
 }
 
+
+
+/* ==================== Contact Form ==================== */
+
+/* ====== Form section ===== */
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  margin: 1.5em auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #e0e0e0a1;
+  max-width: 75vw;
+  height: min-content;
+  padding: 1em;
+}
+
+label {
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: 0 .5em;
+}
+
+input, select {
+  margin-bottom: 1.5em;
+  border: 2px solid #006161;
+  border-radius: .2em;
+  width: 70vw;
+  height: fit-content;
+  font-size: 1em;
+  padding: .3em .5em;
+  color: #7e7e7e;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+select {
+  color: #000000;
+}
+
+optgroup > label {
+  background-color: white;
+  padding: .5em;
+}
+
+::placeholder {
+  color: #999999;
+}
+
+textarea {
+  border: 2px solid #006161;
+  border-radius: .2em;
+  width: 70vw;
+  height: fit-content;
+  font-size: 1em;
+  padding: .3em .5em;
+  color: #242929;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.form-btn {
+  font-family: "Syncopate", serif;
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: 700;
+  color: #000000;
+  background: #ff8749d9;
+  width: fit-content;
+  height: fit-content;
+  padding: .4em;
+  border: 2px solid #242929;
+  border-radius: .2em;
+  margin: .4em 9em 4em 0;
+}
+
 /* ========================= Media queries  ========================= */
 
 @media screen and (min-width: 375px) {
