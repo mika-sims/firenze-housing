@@ -545,7 +545,7 @@ section h2 {
   line-height: 2em;
 }
 
-.info-content-storage h4 {
+.info-content-storage h3 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -847,19 +847,20 @@ textarea {
   }
 
   .nav-menu a {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   /* ===== Hero section ===== */
 
   .container_right h1 {
-    font-size: 4em;
+    font-size: 6em;
+    margin: 0 0 2em 0;
   }
 
   /* ===== Services (index.html) section ===== */
 
   .wrapper {
-    margin: 4em;
+    margin: 5em;
   }
 
   .wrapper a {
@@ -868,14 +869,15 @@ textarea {
   }
 
   .fa-solid {
-    font-size: 1.8em;
-    margin: 1em 0;
+    font-size: 2em;
+    margin: 2em 0;
   }
 
   /* ====== Services (services.html) general style ===== */
 
   .hero-left h1, .hero-right h1 {
     font-size: 4em; /* ===== Heading ===== */
+    margin-bottom: 1.8em;
   }
 
   .container-services {
@@ -885,12 +887,12 @@ textarea {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    gap: .5em;
+    margin: 1em;
   }
 
   .content {
-    width: 23%;
-    margin-bottom: 1em;
+    width: 21%;
+    margin: 0 0 1em 0;
     border: 3px solid #242929;
   }
 
