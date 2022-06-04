@@ -3,767 +3,850 @@
 /* ===== Apply general style properties ===== */
 
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    list-style: none;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    padding-top: 5em;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  list-style: none;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  padding-top: 5em;
+  scroll-behavior: smooth;
 }
 
 li,
 ol,
 ul,
 a {
-    text-decoration: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    font-family: 'Syncopate', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: underline;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
 h2 {
-    font-family: 'Syncopate', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 h3 {
-    font-family: 'Syncopate', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 /* ===== Header/Navbar section ===== */
 
 #header {
-    width: 100vw;
-    height: 5em;
-    position: fixed;
-    top: 0;
-    background-color: whitesmoke;
-    box-shadow: 1px 1px 20px 1px rgba(223, 223, 223, 0.3);
-    z-index: 9999;
+  width: 100vw;
+  height: 5em;
+  position: fixed;
+  top: 0;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 20px 1px rgba(223, 223, 223, 0.3);
+  z-index: 9999;
 }
 
 .nav-bar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
-    width: 10em;
-    margin: .5em auto;
+  width: 10em;
+  margin: .5em auto;
 }
 
 .nav-menu {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-menu li {
-    margin: auto 1em;
+  margin: auto 1em;
 }
 
 .nav-menu a {
-    text-transform: uppercase;
-    color: #222222;
-    text-decoration: none;
-    letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222222;
+  text-decoration: none;
+  letter-spacing: 2px;
 }
 
 
 /* ===== Hero section ===== */
 
 .container {
-    width: 100%;
-    height: 100%;
-    display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
 .container_left,
 .container_right {
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .container_left {
-    background-color: #006161;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+  background-color: #006161;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
 
 .container_left h2 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    margin: 1em auto;
-    font-size: 1.5em;
-    text-align: center;
-    line-height: 1.2em;
-    letter-spacing: 2px;
-    color: white;
-    font-weight: 300;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin: 1em auto;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 300;
 }
 
 .container_left a {
-    background-color: #ff8749d9;
-    color: black;
-    text-transform: uppercase;
-    padding: .6em 1em;
-    margin-bottom: 8em;
-    font-size: 1.2em;
-    font-weight: 500;
+  background-color: #ff8749d9;
+  color: black;
+  text-transform: uppercase;
+  padding: .6em 1em;
+  margin-bottom: 8em;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 .container_right {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/hero-bg.jpg") no-repeat center center fixed;
-    background-size: cover;
-    color: #006161;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/hero-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #006161;
 }
 
 .container_right h1 {
-    margin-bottom: 9em;
-    line-height: 1.6em;
+  margin-bottom: 9em;
+  line-height: 1.6em;
 }
 
 /* ===== Services section ===== */
 
 .container-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
 }
 
 .bg-img {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/services-bg.jpg") no-repeat center center fixed;
-    background-size: cover;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/services-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .container.container-column p {
-    width: 100%;
-    text-transform: uppercase;
-    line-height: 1.5em;
-    letter-spacing: 1px;
-    font-size: 1.5em;
-    text-align: center;
-    font-weight: 300;
-    margin-top: -1em;
-    background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 300;
+  margin-top: -1em;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .wrapper {
-    width: 200px;
-    height: 90px;
-    border: 1px solid #222222;
-    border-radius: .5em;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.7);
-    margin: 1em 0;
+  width: 200px;
+  height: 90px;
+  border: 1px solid #222222;
+  border-radius: .5em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 1em 0;
 }
 
 .wrapper a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2em;
-    color: #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  color: #222222;
 }
 
 .fa-solid {
-    margin: 1em;
+  margin: 1em;
 }
 
 /* ===== About us section ===== */
 
-#about_us > .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(253, 253, 253, 0.3)), url("../images/about-bg.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  .content-box {
-    width: 75vw;
-    height: fit-content;
-    background: rgba(255, 255, 255, 0.904);
-    box-shadow: 0px 0px 1px 1px #b9b9b9;
-    text-align: center;
-    font-size: 1.2em;
-    line-height: 1.3em;
-    padding: .8em;
-    margin-bottom: 4em;
+#about_us>.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(253, 253, 253, 0.3)), url("../images/about-bg.jpg") no-repeat center center;
+  background-size: cover;
+}
 
-  }
-  
-  .content-box p span {
-    color: #ff8649;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
-  .acontent-box h3 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 1.2em;
-    text-transform: uppercase;
-  }
-  
-  .horizontal-line {
-    width: 70%;
-    height: 1px;
-    background-color: #006161;
-    margin: .5em auto;
-  }
+.content-box {
+  width: 75vw;
+  height: fit-content;
+  background: rgba(255, 255, 255, 0.904);
+  box-shadow: 0px 0px 1px 1px #b9b9b9;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  padding: .8em;
+  margin-bottom: 4em;
 
-  /* ===== Find us section ===== */
+}
 
-  .find_us > .container{
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  }
-  
-  .find_us_map {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .illustration-attribute {
-    display: none;
-  }
+.content-box p span {
+  color: #ff8649;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
-  address {
-      text-align: center;
-  }
-  
-  address a, p {
-    color: #222222;
-    line-height: 1.5em;
-  }
-  
-  .social-media-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 2em auto;
-  }
-  
-  .fa-brands {
-    margin: 0 1.2em;
-    color: #242929;
-    font-size: 1.5em;
-  }
-  
-  .copyright {
-    text-align: center;
-    margin: 1em auto;
-  }
+.acontent-box h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.horizontal-line {
+  width: 70%;
+  height: 1px;
+  background-color: #006161;
+  margin: .5em auto;
+}
+
+/* ===== Find us section ===== */
+
+.find_us>.container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.find_us_map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.illustration-attribute {
+  display: none;
+}
+
+address {
+  text-align: center;
+}
+
+address a,
+p {
+  color: #222222;
+  line-height: 1.5em;
+}
+
+.social-media-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 2em auto;
+}
+
+.fa-brands {
+  margin: 0 1.2em;
+  color: #242929;
+  font-size: 1.5em;
+}
+
+.copyright {
+  text-align: center;
+  margin: 1em auto;
+}
 
 
 /* ========================= services.html  ========================= */
 
 /* ===== Hero section ===== */
 .hero {
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 2em;
-  }
-  
-  .hero-left {
-    width: 50vw;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    background-color: #006161;
-  }
-  
-  .hero-right {
-    width: 50vw;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  
-  .hero-left h1 {
-    margin-top: 1em;
-    color: #eff0f1;
-  }
-  
-  .hero-right h1 {
-    margin-top: 3em;
-    color: #006161;
-  }
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2em;
+}
 
-  /* ====== Services general style ===== */
+.hero-left {
+  width: 50vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #006161;
+}
 
-  section h2 {
-  text-align: center;    
-  }
+.hero-right {
+  width: 50vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero-left h1 {
+  margin-top: 1em;
+  color: #eff0f1;
+}
+
+.hero-right h1 {
+  margin-top: 3em;
+  color: #006161;
+}
+
+/* ====== Services general style ===== */
+
+section h2 {
+  text-align: center;
+}
 
 .container-services {
-    margin: 1em auto 5em;
-    width: 90vw;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 2em;
-    border-bottom: 3px solid #242929;
-  }
-  
-  .price {
-    background-color: aquamarine;
-    width: fit-content;
-    height: fit-content;
-    text-align: start;
-    padding: .4em 1em;
-    margin: 1em 0 0 1em;
-  }
-  
-  
-  .info-box {
-    width: 90vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .icons {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .align-icon {
-    display: flex;
-    flex-direction: row;
-    margin: -.5em;
-  }
-  
-  .mid-line {
-    height: 8em;
-    width: 3px;
-    background-color: chocolate;
-  }
-  
-  .info-content {
-    flex: 1;
-    line-height: 2em;
-    text-align: center;
-    padding: .5em;
-  }
-  
-  /* ====== Apartments section ====== */
-  
-  .apt-img-box {
-    width: 90vw;
-    height: 15em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .apt-img-box a {
-  
-    background-color: aquamarine;
-    height: fit-content;
-    width: fit-content;
-    color: black;
-    align-self: flex-end;
-    padding: .4em 1em;
-    margin: 0 1em 1em 0;
-  }
-  
-  .content:nth-child(1) .apt-img-box {
-    background: url("../images/apt-img-1.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  .content:nth-child(2) .apt-img-box {
-    background: url("../images/apt-img-2.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  .content:nth-child(3) .apt-img-box {
-    background: url("../images/apt-img-3.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  .content:nth-child(4) .apt-img-box {
-    background: url("../images/apt-img-4.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  /* ====== Single bed rooms section ====== */
-  
-  .single-img-box {
-    width: 90vw;
-    height: 15em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .single-img-box a {
-  
-    background-color: aquamarine;
-    height: fit-content;
-    width: fit-content;
-    color: black;
-    align-self: flex-end;
-    padding: .4em 1em;
-    margin: 0 1em 1em 0;
-  }
-  
-  .content:nth-child(1) .single-img-box {
-    background: url("../images/single-bed-img-1.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  .content:nth-child(2) .single-img-box {
-    background: url("../images/single-bed-img-2.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  .content:nth-child(3) .single-img-box {
-    background: url("../images/single-bed-img-3.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  .content:nth-child(4) .single-img-box {
-    background: url("../images/single-bed-img-4.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  
-  /* ====== Double bed rooms section ====== */
-  
-  .double-img-box {
-    width: 90vw;
-    height: 15em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .double-img-box a {
-  
-    background-color: aquamarine;
-    height: fit-content;
-    width: fit-content;
-    color: black;
-    align-self: flex-end;
-    padding: .4em 1em;
-    margin: 0 1em 1em 0;
-  }
-  
-  .content:nth-child(1) .double-img-box {
-    background: url("../images/double-bed-img-1.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  .content:nth-child(2) .double-img-box {
-    background: url("../images/double-bed-img-2.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  .content:nth-child(3) .double-img-box {
-    background: url("../images/double-bed-img-3.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  .content:nth-child(4) .double-img-box {
-    background: url("../images/double-bed-img-4.jpg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  
-  /* ====== Storage section ====== */
-  
-  .storage-img-box {
-    width: 90vw;
-    height: 15em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .storage-img-box a {
-    font-size: 1.2em;
-    font-weight: 500;
-    letter-spacing: 2px;
-    background-color: #ff8749;
-    height: fit-content;
-    width: fit-content;
-    color: black;
-    align-self: flex-end;
-    padding: .3em 1em;
-    margin-top: .2em;
-  }
-  
-  .info-content-storage {
-    flex: 1;
-    line-height: 2em;
-  }
-  
-  .info-content-storage h4 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 2em;
-    color: #303030;
-    margin-bottom: 2em;
-  }
-  
-  
-  .content:nth-child(1) .storage-img-box {
-    background: url("../images/packing.png") no-repeat center center;
-    background-size: contain;
-  
-  }
-  
-  .content:nth-child(2) .storage-img-box {
-    background: url("../images/pick-up.png") no-repeat center center;
-    background-size: contain;
-  
-  }
-  
-  .content:nth-child(3) .storage-img-box {
-    background: url("../images/storage.png") no-repeat center center;
-    background-size: contain;
-  
-  }
-  
-  .content:nth-child(4) .storage-img-box {
-    background: url("../images/delivery.png") no-repeat center center;
-    background-size: contain;
-  
-  }
+  margin: 1em auto 5em;
+  width: 90vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2em;
+  border-bottom: 3px solid #242929;
+}
+
+.price {
+  background-color: aquamarine;
+  width: fit-content;
+  height: fit-content;
+  text-align: start;
+  padding: .4em 1em;
+  margin: 1em 0 0 1em;
+}
+
+
+.info-box {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.align-icon {
+  display: flex;
+  flex-direction: row;
+  margin: -.5em;
+}
+
+.mid-line {
+  height: 8em;
+  width: 3px;
+  background-color: chocolate;
+}
+
+.info-content {
+  flex: 1;
+  line-height: 2em;
+  text-align: center;
+  padding: .5em;
+}
+
+/* ====== Apartments section ====== */
+
+.apt-img-box {
+  width: 90vw;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.apt-img-box a {
+
+  background-color: aquamarine;
+  height: fit-content;
+  width: fit-content;
+  color: black;
+  align-self: flex-end;
+  padding: .4em 1em;
+  margin: 0 1em 1em 0;
+}
+
+.content:nth-child(1) .apt-img-box {
+  background: url("../images/apt-img-1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.content:nth-child(2) .apt-img-box {
+  background: url("../images/apt-img-2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.content:nth-child(3) .apt-img-box {
+  background: url("../images/apt-img-3.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.content:nth-child(4) .apt-img-box {
+  background: url("../images/apt-img-4.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* ====== Single bed rooms section ====== */
+
+.single-img-box {
+  width: 90vw;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.single-img-box a {
+
+  background-color: aquamarine;
+  height: fit-content;
+  width: fit-content;
+  color: black;
+  align-self: flex-end;
+  padding: .4em 1em;
+  margin: 0 1em 1em 0;
+}
+
+.content:nth-child(1) .single-img-box {
+  background: url("../images/single-bed-img-1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.content:nth-child(2) .single-img-box {
+  background: url("../images/single-bed-img-2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.content:nth-child(3) .single-img-box {
+  background: url("../images/single-bed-img-3.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.content:nth-child(4) .single-img-box {
+  background: url("../images/single-bed-img-4.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+
+/* ====== Double bed rooms section ====== */
+
+.double-img-box {
+  width: 90vw;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.double-img-box a {
+
+  background-color: aquamarine;
+  height: fit-content;
+  width: fit-content;
+  color: black;
+  align-self: flex-end;
+  padding: .4em 1em;
+  margin: 0 1em 1em 0;
+}
+
+.content:nth-child(1) .double-img-box {
+  background: url("../images/double-bed-img-1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.content:nth-child(2) .double-img-box {
+  background: url("../images/double-bed-img-2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.content:nth-child(3) .double-img-box {
+  background: url("../images/double-bed-img-3.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.content:nth-child(4) .double-img-box {
+  background: url("../images/double-bed-img-4.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+
+/* ====== Storage section ====== */
+
+.storage-img-box {
+  width: 90vw;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.storage-img-box a {
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  background-color: #ff8749;
+  height: fit-content;
+  width: fit-content;
+  color: black;
+  align-self: flex-end;
+  padding: .3em 1em;
+  margin-top: .2em;
+}
+
+.info-content-storage {
+  flex: 1;
+  line-height: 2em;
+}
+
+.info-content-storage h4 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2em;
+  color: #303030;
+  margin-bottom: 2em;
+}
+
+
+.content:nth-child(1) .storage-img-box {
+  background: url("../images/packing.png") no-repeat center center;
+  background-size: contain;
+
+}
+
+.content:nth-child(2) .storage-img-box {
+  background: url("../images/pick-up.png") no-repeat center center;
+  background-size: contain;
+
+}
+
+.content:nth-child(3) .storage-img-box {
+  background: url("../images/storage.png") no-repeat center center;
+  background-size: contain;
+
+}
+
+.content:nth-child(4) .storage-img-box {
+  background: url("../images/delivery.png") no-repeat center center;
+  background-size: contain;
+
+}
 
 /* ========================= Media queries  ========================= */
 
 @media screen and (min-width: 375px) {
 
-    /* ===== Header/Navbar section ===== */
+  /* ===== Header/Navbar section ===== */
 
-    .nav-menu a {
-        font-size: 1.2em;
-    }
+  .nav-menu a {
+    font-size: 1.2em;
+  }
 
-    /* ===== Hero section ===== */
+  /* ===== Hero section ===== */
 
-    .container_right h1 {
-        font-size: 1.7em;
-    }
+  .container_right h1 {
+    font-size: 1.7em;
+  }
 
-    .container_left img {
-        width: 8em;
-    }
+  .container_left img {
+    width: 8em;
+  }
 
 }
 
 @media screen and (min-width: 425px) {
-    /* ===== Header/Navbar section ===== */
+  /* ===== Header/Navbar section ===== */
 
-    .nav-menu a {
-        font-size: 1.3em;
-    }
+  .nav-menu a {
+    font-size: 1.3em;
+  }
 
-    /* ===== Hero section ===== */
+  /* ===== Hero section ===== */
 
-    .container_right h1 {
-        font-size: 1.9em;
-    }
+  .container_right h1 {
+    font-size: 1.9em;
+  }
 
-    .container_left img {
-        width: 9em;
-    }
+  .container_left img {
+    width: 9em;
+  }
 
-    .container_left a {
-        font-size: 1.4em;
-    }
+  .container_left a {
+    font-size: 1.4em;
+  }
 
 }
 
 @media screen and (min-width: 768px) {
 
-    /* ===== Header/Navbar section ===== */
+  /* ===== Header/Navbar section ===== */
 
-    .nav-bar {
-        flex-direction: row;
-        margin: 1em;
-        justify-content: space-between;
-    }
+  .nav-bar {
+    flex-direction: row;
+    margin: 1em;
+    justify-content: space-between;
+  }
 
-    .logo {
-        width: 12em;
-    }
+  .logo {
+    width: 12em;
+  }
 
-    .nav-menu a {
-        font-size: 1.2em;
-    }
-
-    /* ===== Hero section ===== */
-
-    .container_right h1 {
-        font-size: 3.5em;
-        margin-bottom: 4em;
-    }
-
-    .container_left img {
-        width: 12em;
-        margin: 0;
-    }
-
-    .container_left h2 {
-        font-size: 1.8em;
-    }
-
-    .container_left a {
-        font-size: 1.5em;
-        margin-bottom: 4em;
-    }
-
-    /* ===== Services section ===== */
-
-    .container.container-column h2 {
-        font-size: 2em;
-        margin-top: 2em;
-    }
-
-    .container.container-column p {
-        font-size: 1.8em;
-        margin-top: 1.8em;
-    }
-
-    .wrapper-container {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .wrapper {
-        height: 200px;
-        width: 120px;
-        margin: 2.5em 1em;
-    }
-
-    .wrapper a {
-        margin: 1em auto;
-    }
-
-    .fa-solid {
-        margin: 1.4em;
-        font-size: 1.4em;
-    }
-
-    /* ===== Footer section ===== */
-    
-  address a, p {
+  .nav-menu a {
     font-size: 1.2em;
   }
-  
+
+  /* ===== Hero section ===== */
+
+  .container_right h1 {
+    font-size: 3.5em;
+    margin-bottom: 4em;
+  }
+
+  .container_left img {
+    width: 12em;
+    margin: 0;
+  }
+
+  .container_left h2 {
+    font-size: 1.8em;
+  }
+
+  .container_left a {
+    font-size: 1.5em;
+    margin-bottom: 4em;
+  }
+
+  /* ===== Services (index.html) section ===== */
+
+  .container.container-column h2 {
+    font-size: 2em;
+    margin-top: 2em;
+  }
+
+  .container.container-column p {
+    font-size: 1.8em;
+    margin-top: 1.8em;
+  }
+
+  .wrapper-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wrapper {
+    height: 200px;
+    width: 120px;
+    margin: 2.5em 1em;
+  }
+
+  .wrapper a {
+    margin: 1em auto;
+  }
+
+  .fa-solid {
+    margin: 1.4em;
+    font-size: 1.4em;
+  }
+
+  /* ====== Services (services.html) general style ===== */
+
+  .hero-left h1, .hero-right h1 {
+    font-size: 3em; /* ===== Heading ===== */
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  .info-content p {
+    font-size: 1.2em;
+    margin-left: .1em;
+  }
+
+  .fa-solid {
+    font-size: 1.2em;
+  }
+
+  .mid-line {
+    height: 14em;
+  }
+
+  .icons p {
+    font-size: 1.4em;
+
+  }
+
+  .content a,
+  .price {
+    font-size: 1.2em;
+  }
+
+
+  /* ===== Footer section ===== */
+
+  address a,
+  p {
+    font-size: 1.2em;
+  }
+
   .fa-brands {
     font-size: 1.7em;
   }
-  
+
 
 }
 
 @media screen and (min-width: 1024px) {
 
-    /* ===== Header/Navbar section ===== */
+  /* ===== Header/Navbar section ===== */
 
-    .logo {
-        width: 14em;
-    }
+  .logo {
+    width: 14em;
+  }
 
-    .nav-menu a {
-        font-size: 1.5em;
-    }
+  .nav-menu a {
+    font-size: 1.5em;
+  }
 
-    /* ===== Hero section ===== */
+  /* ===== Hero section ===== */
 
-    .container_right h1 {
-        font-size: 4em;
-    }
+  .container_right h1 {
+    font-size: 4em;
+  }
 
-    /* ===== Services section ===== */
+  /* ===== Services (index.html) section ===== */
 
-    .wrapper {
-        margin: 4em;
-    }
+  .wrapper {
+    margin: 4em;
+  }
 
-    .wrapper a {
-        font-size: 1.5em;
-        margin: 0;
-    }
+  .wrapper a {
+    font-size: 1.5em;
+    margin: 0;
+  }
 
-    .fa-solid {
-        font-size: 1.8em;
-        margin: 1em 0;
-    }
+  .fa-solid {
+    font-size: 1.8em;
+    margin: 1em 0;
+  }
 
-}
+  /* ====== Services (services.html) general style ===== */
 
-@media screen and (min-width: 1440px) {
+  .hero-left h1, .hero-right h1 {
+    font-size: 4em; /* ===== Heading ===== */
+  }
 
-    /* ===== Header/Navbar section ===== */
+  .container-services {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: .5em;
+  }
 
-    .logo {
-        width: 15em;
-        margin: auto 2.5em;
-    }
+  .content {
+    width: 23%;
+    margin-bottom: 1em;
+    border: 3px solid #242929;
+  }
 
-    .nav-menu li {
-        margin: auto 3em;
-    }
+  .info-box {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
 
-    .nav-menu a {
-        font-size: 1.7em;
-    }
+  .align-icon {
+    margin: -.5em .2em;
+    align-items: center;
+  }
 
-    /* ===== Hero section ===== */
+  .align-icon p {
+    margin-left: .5em;
+    font-size: 1.1em;
+  }
 
-    .container_right h1 {
-        font-size: 5em;
-    }
+  .fa-solid {
+    font-size: .8em;
+  }
+
+  .mid-line {
+    height: 10em;
+    width: 3px;
+    background-color: chocolate;
+  }
+
+  .info-content {
+    width: 100%;
+  }
+
+  .info-content p {
+    font-size: 1.1em;
+  }
+
+  .apt-img-box {
+    width: 100%;
+  }
+
+  .single-img-box {
+    width: 100%;
+  }
+
+  .double-img-box {
+    width: 100%;
+  }
+
+  .storage-img-box {
+    width: 100%;
+  }
 
 }
