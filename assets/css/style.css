@@ -288,7 +288,7 @@ h3 {
 /* ===== Hero section ===== */
 .hero {
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -296,8 +296,8 @@ h3 {
   }
   
   .hero-left {
-    width: 45vw;
-    height: 30vh;
+    width: 50vw;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -306,8 +306,8 @@ h3 {
   }
   
   .hero-right {
-    width: 55vw;
-    height: 30vh;
+    width: 50vw;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -315,25 +315,30 @@ h3 {
   }
   
   .hero-left h1 {
-    margin-top: 3em;
+    margin-top: 1em;
     color: #eff0f1;
   }
   
   .hero-right h1 {
-    margin-top: 5em;
+    margin-top: 3em;
     color: #006161;
   }
 
-  /* ====== General style ===== */
+  /* ====== Services general style ===== */
+
+  section h2 {
+  text-align: center;    
+  }
 
 .container-services {
-    margin: 1em auto 5em auto;
+    margin: 1em auto 5em;
     width: 90vw;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   
   .content {
@@ -358,7 +363,6 @@ h3 {
     width: 90vw;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
   }
   
@@ -371,8 +375,7 @@ h3 {
   .align-icon {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 6%;
+    margin: -.5em;
   }
   
   .mid-line {
@@ -384,6 +387,8 @@ h3 {
   .info-content {
     flex: 1;
     line-height: 2em;
+    text-align: center;
+    padding: .5em;
   }
   
   /* ====== Apartments section ====== */
@@ -688,6 +693,17 @@ h3 {
         margin: 1.4em;
         font-size: 1.4em;
     }
+
+    /* ===== Footer section ===== */
+    
+  address a, p {
+    font-size: 1.2em;
+  }
+  
+  .fa-brands {
+    font-size: 1.7em;
+  }
+  
 
 }
 
