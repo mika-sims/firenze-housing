@@ -706,7 +706,8 @@ footer > .horizontal-line {
 }
 
 .submission-msg {
-  text-align: center;
+
+  font-size: 2.5em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 500;
   margin: 0 2em;
