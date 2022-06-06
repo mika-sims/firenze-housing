@@ -8,11 +8,9 @@
 
 body {
   margin: 0;
-  padding: 0;
   font-size: 100%;
   list-style: none;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  padding-top: 5em;
   scroll-behavior: smooth;
 }
 
@@ -90,10 +88,13 @@ h3 {
 
 /* ===== Hero section ===== */
 
+
+
 .container {
   width: 100%;
   height: 100vh;
   display: flex;
+  padding: 5em 0;
 }
 
 .container_left,
@@ -108,7 +109,7 @@ h3 {
 
 .container_left {
   background-color: #006161;
-  justify-content: space-around;
+  gap: 1em;
   align-items: center;
   text-align: center;
 }
@@ -129,9 +130,9 @@ h3 {
   color: black;
   text-transform: uppercase;
   padding: .6em 1em;
-  margin-bottom: 8em;
   font-size: 1.2em;
   font-weight: 500;
+  margin-bottom: 5em;
 }
 
 .container_right {
@@ -141,11 +142,12 @@ h3 {
 }
 
 .container_right h1 {
-  margin-bottom: 9em;
+  margin-bottom: 2em;
   line-height: 1.6em;
 }
 
-/* ===== Services section ===== */
+
+/* ===== Services section ===== */ 
 
 .container-column {
   display: flex;
@@ -168,7 +170,6 @@ h3 {
   font-size: 1.5em;
   text-align: center;
   font-weight: 300;
-  margin-top: -1em;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -179,7 +180,7 @@ h3 {
   border-radius: .5em;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.7);
-  margin: 1em 0;
+
 }
 
 .wrapper a {
@@ -204,14 +205,13 @@ h3 {
 
 /* ===== About us section ===== */
 
-#about_us>.container {
+#about_us > .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(253, 253, 253, 0.3)), url("../images/about-bg.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 5em;
 }
 
 .content-box {
@@ -223,8 +223,6 @@ h3 {
   font-size: 1.2em;
   line-height: 1.3em;
   padding: .8em;
-  margin-bottom: 4em;
-
 }
 
 .content-box p span {
@@ -280,7 +278,7 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 2em auto;
+  margin: 1em auto 0;
 }
 
 .fa-brands {
@@ -745,6 +743,7 @@ footer > .horizontal-line {
   .container_left img {
     width: 8em;
   }
+
 }
 
 @media screen and (min-width: 425px) {

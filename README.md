@@ -8,11 +8,7 @@
 
 * This project was created for educational purposes within the scope of Code Institute's Diploma in Full Stack Software Developer course*
 
-* Firenze Housing is a small company that offers quality and affordable rental apartments, rooms and storage services for students studying in Florence
-
-* The purpose of this site is to market Firenze Housing's services to the user by providing easy-to-access, detailed and easy-to-understand information about the flat, room or storage service they are interested in
-
-* This project requires the use of HTML and CSS, the core technologies I have learned so far
+Firenze Housing is a small company that offers quality and affordable rental apartments, rooms and storage services for students studying in Florence. The purpose of this site is to market Firenze Housing's services to the user by providing easy-to-access, detailed and easy-to-understand information about the flat, room or storage service they are interested in. This project requires the use of HTML and CSS, the core technologies I have learned so far
 
 
 # Table of Contents 
