@@ -652,11 +652,13 @@ select {
 
 select {
   color: #000000;
+  
 }
 
 optgroup>label {
   background-color: white;
   padding: .5em;
+  
 }
 
 ::placeholder {
@@ -679,7 +681,7 @@ textarea {
 .form-btn {
   font-family: "Syncopate", serif;
   text-transform: uppercase;
-  font-size: .9em;
+  font-size: 1em;
   font-weight: 700;
   color: #000000;
   background: #ff8749;
@@ -688,6 +690,7 @@ textarea {
   padding: .4em;
   border: 2px solid #242929;
   border-radius: .2em;
+  margin-top: 1em;
 }
 
 /* ===== Footer-address  ===== */
