@@ -84,6 +84,10 @@ h3 {
   letter-spacing: 2px;
 }
 
+.active {
+  border-bottom: 3px solid #ff8649;
+}
+
 /* ===== Hero section ===== */
 
 .container {
