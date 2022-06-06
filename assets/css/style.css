@@ -699,6 +699,32 @@ footer > .horizontal-line {
   margin-top: 3em;
 }
 
+/* ===== Form submission message ===== */
+
+#form-sub-msg {
+  text-align: center;
+}
+
+.submission-msg {
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 500;
+  margin: 0 2em;
+}
+
+.submission-msg p {
+  font-size: 1em;
+}
+
+#form-sub-msg .horizontal-line {
+  margin: 3em auto;
+  height: 5px;
+}
+
+.form-submission > footer {
+  margin-top: 5em;
+}
+
 /* ========================= Media queries  ========================= */
 
 @media screen and (min-width: 375px) {
