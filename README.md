@@ -28,8 +28,8 @@ Firenze Housing is a small company that offers quality and affordable rental apa
   + [Colour Scheme](#colour-scheme)
   + [Typography](#typography)
   + [Imagery](#imagery)
-  + [Icons and Illustrations](#icons-illustrations)
-  + [Logo and Favicon](#logo-favicon)
+  + [Icons and Illustrations](#icons-and-illustrations)
+  + [Logo and Favicon](#logo-and-favicon)
 - [Structure](#structure)
   + [Information Architecture](#information-architecture)
   + [Navigation Bar](#navigation-bar)
@@ -77,6 +77,8 @@ Before the website was created, the wireframes were designed with the wireframe 
 - Instead of creating a separate page for the storage service section, information about the content of this service had been added to the end of the services page before the find us section
 
 - In addition, the idea of recreating the page navigation in the footer was canceled after the design of the fixed navigation menu
+
+Wireframes design fils can be find at [Wireframe](assets/images/wireframes) image folder
 
 
 # Design
