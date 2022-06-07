@@ -31,7 +31,7 @@ Firenze Housing is a small company that offers quality and affordable rental apa
   + [Icons and Illustrations](#icons-and-illustrations)
   + [Logo and Favicon](#logo-and-favicon)
 - [Structure](#structure)
-  + [Information Architecture](#information-architecture)
+  + [General Architecture](#information-architecture)
   + [Navigation Bar](#navigation-bar)
   + [Buttons](#buttons)
   + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
@@ -130,3 +130,7 @@ A minimal color scheme and typography have been chosen to create a simple, eye-c
 - A simple but descriptive home page logo was created by placing the letter "F" inside the house shape, which determines the content of the site
 
 - A simple favicon design has been obtained by enclosing the first letters of the words in Firenze Housing company in the shape of a circle with a white background
+
+# Structure 
+
+The site consists of index.html, services.html, contact.html pages. index.html is the main page and when we scroll down, a subsection called services is seen. There are icons and short-explanatory texts that provide the transition from this section to the specific services section. When we continue to scroll down, the About Us section appears. In this section, there is a text describing the mission and vision of Firenze Housing. At the end of this page, there is a Find Us section with contact information. This section contains detailed information on how to contact Firenze Housing.
