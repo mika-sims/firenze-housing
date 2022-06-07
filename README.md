@@ -117,12 +117,14 @@ A minimal color scheme and typography have been chosen to create a simple, eye-c
 
 ## Logo and Favicon
 
-![Firenze Housing logo](/assets/images/logo.png) - The roof shape was placed over the Firenze Housing lettering, creating a simple yet descriptive navigation logo design for the website's content
+- All logos on the site as well as the favicon in the browser bar are designed by using [Figma](https://www.figma.com/)
 
-![Firenze Housing logo](assets/images/hero_img_readme_file.png) - A simple but descriptive home page logo was created by placing the letter "F" inside the house shape, which determines the content of the site
+   ![Firenze Housing logo and favicon](assets/images/logo_favicon.png)
 
-![Firenze Housing favicon](assets/images/favicon.png) - A simple favicon design has been obtained by enclosing the first letters of the words in Firenze Housing company in the shape of a circle with a white background
+- The roof shape was placed over the Firenze Housing lettering, creating a simple yet descriptive navigation logo design for the website's content
 
-- All logos on the site as well as the favicon in the browser bar are designed by me using [Figma](https://www.figma.com/)
+- A simple but descriptive home page logo was created by placing the letter "F" inside the house shape, which determines the content of the site
+
+- A simple favicon design has been obtained by enclosing the first letters of the words in Firenze Housing company in the shape of a circle with a white background
 
 
