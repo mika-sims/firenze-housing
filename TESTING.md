@@ -11,7 +11,7 @@
     * [W3C CSS Validator](#w3c-css-validator)
 - [Lighthouse](#lighthouse)
 - [Responsiveness](#responsiveness)
-- [Color Contrast Accessibility Validator](#color-contrast-accessibility-validator)
+- [Color Contrast Accessibility Validation](#color-contrast-accessibility-validation)
 - [Cross-Browser Testing](#cross-browser-testing)
 - [Testing User Stories](#testing-user-stories)
     * [Prospective Visitors](#prospective-visitors)
@@ -23,7 +23,7 @@
 
 ## Code Validation
 
-All the HTML and CSS codes have been tested in the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There was a minor bug in the contact.html file and it was easily fixed. Details are in the debugging section.
+All the HTML and CSS codes have been tested in the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There was a minor bug in the contact.html file and it was easily fixed. Details are in the [Bugs](#bugs) section.
 
 ### W3C HTML Validator
 
@@ -137,3 +137,10 @@ The responsive design tests were carried out manually with [Google Chrome DevToo
 | Render | passed   | passed    | 
 | Images | passed   | passed    |
 | Links  | passed   | passed    |
+
+
+## Color Contrast Accessibility Validation
+
+The [a11y Color Contrast Accessibility Validator](https://color.a11y.com/) is used to validate the color contrast of the website. During the test phase, the orange text on the main page did not pass the test. Afterwards, the color of the text was changed and it passed the test successfully. Details are in the [Bugs](#bugs) section.
+
+![Color Contrast Accessibility](assets/images/colour_scheme/color_contrast_accessibility_validation.png)
