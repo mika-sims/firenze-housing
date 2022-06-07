@@ -148,3 +148,33 @@ The [a11y Color Contrast Accessibility Validator](https://color.a11y.com/) is us
 ## Cross-Browser Testing
 
 The website was manually tested in Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari and Internet Explorer and no bugs were found. All articles and images passed the test without any problems. Appearance, functionality, and responsiveness were consistent across various different sizes and browsers.
+
+## Testing User Stories
+
+### Prospective Customer
+
+**For apartments and rooms;**
+
+- As a Firenze Housing website user, I want to be able to navigate the entire site smoothly.
+
+    * The navigation menu on all pages is always fixed at the top of the page. This allows the user to easily navigate to the pages they want to go to.
+
+    * With the "Contact Us" button on the main page, user can easily go to the contact form page and contact Firenze Housing.
+
+    * User can easily access Firenze Housing's social media accounts with the social media links in the footer section of the page.
+
+- As a Firenze Housing website user, I would like to see pictures and prices of available apartments and rooms.
+
+    * By clicking on the "Services" section in the navigation menu, the user can see the photos and prices of the apartments and rooms available for rent in the Services section.
+
+- As a Firenze Housing website user, I would like to see detailed descriptions of available apartments and rooms.
+
+    * By clicking on the "Services" section in the navigation menu, the user can see the detailed descriptions of the apartments and rooms available for rent in the Services section.
+
+- As a Firenze Housing website user, I would like to see the office location of Firenze Housing.
+
+    * The user can easily reach the office location of Firenze Housing from the "Find Us" section at the bottom of all pages.
+
+ - As a Firenze Housing website user, I would like to see detailed contact information of Firenze housing.
+
+    * The user can easily see detailed contact information of Firenze housing from the "Find Us" section at the bottom of all pages.

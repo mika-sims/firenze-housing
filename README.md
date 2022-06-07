@@ -51,10 +51,11 @@ Firenze Housing is a small company that offers quality and affordable rental apa
 
   **For apartments and rooms;**
 
- - As a Firenze Housing website user, I would like to see pictures and prices of available apartments and rooms,
- - As a Firenze Housing website user, I would like to see detailed descriptions of available apartments and rooms,
- - As a Firenze Housing website user, I would like to see the office location of Firenze Housing,
- - As a Firenze Housing website user, I would like to see detailed contact information of Firenze housing,
+ - As a Firenze Housing website user, I want to be able to navigate the entire site smoothly.
+ - As a Firenze Housing website user, I would like to see pictures and prices of available apartments and rooms.
+ - As a Firenze Housing website user, I would like to see detailed descriptions of available apartments and rooms.
+ - As a Firenze Housing website user, I would like to see the office location of Firenze Housing.
+ - As a Firenze Housing website user, I would like to see detailed contact information of Firenze housing.
 
  **For storage services;**
 
