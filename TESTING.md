@@ -9,7 +9,7 @@
         + [Contact Page](#contact-page)
         + [Formdump Page](#formdump-page)
     * [W3C CSS Validator](#w3c-css-validator)
-- [Lighthouse Test Result](#lighthouse-test-result)
+- [Lighthouse Test](#lighthouse-test)
 - [Responsiveness Test](#responsiveness-test)
 - [Color Contrast Accessibility Validator](#color-contrast-accessibility-validator)
 - [Cross-Browser Testing](#cross-browser-testing)
@@ -50,3 +50,58 @@ The main page, services page, contact form page and formdump page have been test
 An external stylesheet file is used for all HTML files. Below is the result of the W3C CSS Validator.
 
 ![W3C CSS Validator](assets/images/code_validations/css_validation.png)
+
+## Lighthouse Test
+
+All pages of the website have been tested separately by Google DevTools' Google Lighthouse tool to learn the Performance, Accessibility, Best Practices and SEO test results for both mobile and desktop. Below are the test results according to the pages.
+
+**Mobile Test Results**
+
+* Home Page
+
+![Google Lighthouse](assets/images/lighthouse_test/lighthouse_main_page_mobile.png)
+
+---
+
+* Services Page
+
+![Google Lighthouse](assets/images/lighthouse_test/lighthouse_services_page_mobile.png)
+
+---
+
+* Contact Page
+
+![Google Lighthouse](assets/images/lighthouse_test/lighthouse_contact_page_mobile.png)
+
+---
+
+* Formdump Page
+
+![Google Lighthouse](assets/images/lighthouse_test/lighthouse_formdump_page_mobile.png)
+
+---
+---
+
+**Desktop Test Results**
+
+* Home Page
+
+![Google Lighthouse](assets/images/lighthouse_test/lighthouse_main_page_desktop.png)
+
+---
+
+* Services Page
+
+![Google Lighthouse](assets/images/lighthouse_test/lighthouse_services_page_desktop.png)
+
+---
+
+* Contact Page
+
+![Google Lighthouse](assets/images/lighthouse_test/lighthouse_contact_page_desktop.png)
+
+---
+
+* Formdump Page
+
+![Google Lighthouse](assets/images/lighthouse_test/lighthouse_formdump_page_desktop.png)
