@@ -12,7 +12,7 @@ Firenze Housing is a small company that offers quality and affordable rental apa
 
 **For the live project page >>>** [Firenze Housing](https://mika-sims.github.io/firenze-housing/)   
    
-![Firenze Housing responsive screen-shot](assets/images/responsive_main_page.png)       
+![Firenze Housing responsive screen-shot](assets/images/responsive_screen_shots/responsive_main_page.png)       
 
 
 
