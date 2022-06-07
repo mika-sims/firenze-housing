@@ -110,8 +110,30 @@ All pages of the website have been tested separately by Google DevTools' Google 
 
 The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/).
 
+**Mobile Test**
+
 |        | iPhone 4 | iPhone 5/SE | iPhone 5 | iPhone 6/7/8 | Galaxy S8 | Galaxy S III | Galaxy S9+ | Lumia 520 |
 |--------|----------|-------------|----------|--------------|-----------|--------------|------------|-----------|
 | Render | passed   | passed      | passed   | passed       | passed    | passed       | passed     |passed     |
 | Images | passed   | passed      | passed   | passed       | passed    | passed       | passed     |passed     |
 | Links  | passed   | passed      | passed   | passed       | passed    | passed       | passed     |passed     |
+
+---
+
+**Tablet Test**
+
+|        | iPad Mini | iPad Pro | Galaxy Tab S4 | Nexus 7 | iPad Air  | Surface Pro 7 | Surface Duo | Galaxy Fold |
+|--------|-----------|----------|---------------|-------- |-----------|---------------|-------------|-------------|
+| Render | passed    | passed   | passed        | passed  | passed    | passed        | passed      |passed       |
+| Images | passed    | passed   | passed        | passed  | passed    | passed        | passed      |passed       |
+| Links  | passed    | passed   | passed        | passed  | passed    | passed        | passed      |passed       |
+
+---
+
+**Desktop Test**
+
+|        | < 1024px | 1024px >  |
+|--------|----------|-----------|
+| Render | passed   | passed    | 
+| Images | passed   | passed    |
+| Links  | passed   | passed    |
