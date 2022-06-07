@@ -31,7 +31,6 @@ Firenze Housing is a small company that offers quality and affordable rental apa
   + [Icons and Illustrations](#icons-and-illustrations)
   + [Logo and Favicon](#logo-and-favicon)
 - [Structure](#structure)
-  + [General Architecture](#information-architecture)
   + [Navigation Bar](#navigation-bar)
   + [Buttons](#buttons)
   + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
@@ -133,4 +132,20 @@ A minimal color scheme and typography have been chosen to create a simple, eye-c
 
 # Structure 
 
-The site consists of index.html, services.html, contact.html pages. index.html is the main page and when we scroll down, a subsection called services is seen. There are icons and short-explanatory texts that provide the transition from this section to the specific services section. When we continue to scroll down, the About Us section appears. In this section, there is a text describing the mission and vision of Firenze Housing. At the end of this page, there is a Find Us section with contact information. This section contains detailed information on how to contact Firenze Housing.
+The site consists of index.html, services.html, contact.html pages. 
+
+- Home page (index.html) is the main page and when we scroll down, a subsection called services is seen. There are icons and short-explanatory texts that provide the transition from this section to the specific services section. When we continue to scroll down, the About Us section appears. In this section, there is a text describing the mission and vision of Firenze Housing. At the end of this page, there is a Find Us section with contact information. This section contains detailed information on how to contact Firenze Housing.
+
+- On the Services (services.html) page, there are detailed information about rental apartments, room and storage services, and pictures of rental apartments and rooms.
+
+- On the Contact (contact.html) page, there is a form that allows the user to contact Firenze Housing for the requested service. When the form is filled and the request is sent, a new page opens with the message 'Thank you for the service request'.
+
+## Navigation Bar
+
+![Navigation Bar](assets/images/structure/navigation_structure.png)
+
+The Navigation menu is fixed at the top of all pages to provide the user with easy navigation between the pages. In order to determine which page the user is currently on, there is an orange under-line effect under the name of the current page.
+
+![Navigation Bar](assets/images/structure/navigation_mobile_structure.png)
+
+- On screens with 719 px and below, the logo goes over the navigation menu links.
