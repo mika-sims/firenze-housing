@@ -9,8 +9,8 @@
         + [Contact Page](#contact-page)
         + [Formdump Page](#formdump-page)
     * [W3C CSS Validator](#w3c-css-validator)
-- [Lighthouse Test](#lighthouse-test)
-- [Responsiveness Test](#responsiveness-test)
+- [Lighthouse](#lighthouse)
+- [Responsiveness](#responsiveness)
 - [Color Contrast Accessibility Validator](#color-contrast-accessibility-validator)
 - [Cross-Browser Testing](#cross-browser-testing)
 - [Testing User Stories](#testing-user-stories)
@@ -51,7 +51,7 @@ An external stylesheet file is used for all HTML files. Below is the result of t
 
 ![W3C CSS Validator](assets/images/code_validations/css_validation.png)
 
-## Lighthouse Test
+## Lighthouse
 
 All pages of the website have been tested separately by Google DevTools' Google Lighthouse tool to learn the Performance, Accessibility, Best Practices and SEO test results for both mobile and desktop. Below are the test results according to the pages.
 
@@ -105,3 +105,13 @@ All pages of the website have been tested separately by Google DevTools' Google 
 * Formdump Page
 
 ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_formdump_page_desktop.png)
+
+## Responsiveness
+
+The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/).
+
+|        | iPhone 4 | iPhone 5/SE | iPhone 5 | iPhone 6/7/8 | Galaxy S8 | Galaxy S III | Galaxy S9+ | Lumia 520 |
+|--------|----------|-------------|----------|--------------|-----------|--------------|------------|-----------|
+| Render | passed   | passed      | passed   | passed       | passed    | passed       | passed     |passed     |
+| Images | passed   | passed      | passed   | passed       | passed    | passed       | passed     |passed     |
+| Links  | passed   | passed      | passed   | passed       | passed    | passed       | passed     |passed     |
