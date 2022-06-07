@@ -85,11 +85,13 @@ A minimal color scheme and typography have been chosen to create a simple, eye-c
 
 ## Colour Scheme
 
-![Dark shade of green-cyan](assets/images/colour_scheme/dark_shade_of_green_cyan.png) ![Medium light shade of orange](assets/images/colour_scheme/medium_light_shade_of_orange.png)
+![Dark shade of green-cyan](assets/images/colour_scheme/dark_shade_of_green_cyan.png) ![Medium light shade of orange](assets/images/colour_scheme/medium_light_shade_of_orange.png)  ![Medium light shade of orange](assets/images/colour_scheme/aquamarine.png)
 
 - The two main colors in the logo design are used throughout the site to separate sections and objects from each other. The dark shade of green-cyan color with **#006161** hex code is densely used in the background and title text of the main sections. In addition, the colors of these illustrations have been adjusted accordingly in order to ensure that the illustrations in different sections are compatible with the page layout
 
 - The second main color, **#ff8749** hex coded medium light shade of orange, is mostly used to highlight the buttons. This choice was made because it is a more attractive color than the dark green color
+
+- Aquamarine with the **#7fffd4** hex code is used to highlight the price and booking buttons in the services section
 
 - Black color is used in the general font and icons of the site
 
@@ -126,5 +128,3 @@ A minimal color scheme and typography have been chosen to create a simple, eye-c
 - A simple but descriptive home page logo was created by placing the letter "F" inside the house shape, which determines the content of the site
 
 - A simple favicon design has been obtained by enclosing the first letters of the words in Firenze Housing company in the shape of a circle with a white background
-
-
