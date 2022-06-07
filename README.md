@@ -32,8 +32,7 @@ Firenze Housing is a small company that offers quality and affordable rental apa
   + [Logo and Favicon](#logo-and-favicon)
 - [Structure](#structure)
   + [Navigation Bar](#navigation-bar)
-  + [Buttons](#buttons)
-  + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
+  + [Sub Navigations](#sub-navigations)
   + [Footer](#footer)
   + [404 Page](#404-page)
 - [Technologies used](#technologies-used)
@@ -149,3 +148,23 @@ The Navigation menu is fixed at the top of all pages to provide the user with ea
 ![Navigation Bar](assets/images/structure/navigation_mobile_structure.png)
 
 - On screens with 719 px and below, the logo goes over the navigation menu links.
+
+## Sub navigations
+
+![Contact Us Navigation](assets/images/structure/contact_us_navigation_btn.png)
+
+- The "Contact Us" sub-navigation on the main page is for quickly directing the user to the contact form.
+
+![Contact Us Navigation](assets/images/structure/main_services_sub_nav.png)
+
+- The 4 icons in the services section of the home page quickly guide the user to the desired service section. In the desktop version, when the user hover over any of these icons, the color of the icon changes.
+
+![Contact Us Navigation](assets/images/structure/services_navigation.png)   ![Contact Us Navigation](assets/images/structure/services_navigation+2.png)
+
+- When the services section in the navbar menu is clicked, a detailed explanation about the service types offered is displayed on the new page that opens. The "Book Now" and "INFO" sub-navigations on the pictures and illustrations direct the user to the contact form where they can contact Firenze Housing and request the desired service.
+
+## Footer
+
+![Contact Us Navigation](assets/images/structure/footer_nav.png)
+
+- At the bottom of all independent pages, there are icons of social media accounts that direct the user to Firenze Housing's social media accounts. As soon as one of these icons is clicked, the social media account is opened in a new tab.
