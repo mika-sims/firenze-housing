@@ -53,7 +53,7 @@ An external stylesheet file is used for all HTML files. Below is the result of t
 
 ## Lighthouse
 
-All pages of the website have been tested separately by Google DevTools' Google Lighthouse tool to learn the Performance, Accessibility, Best Practices and SEO test results for both mobile and desktop. Below are the test results according to the pages.
+All pages of the website have been tested separately by Google DevTools' Google Lighthouse tool to learn the Performance, Accessibility, Best Practices and SEO test results for both mobile and desktop. There are minor differences between mobile and desktop tests. The first of these is the Performance test. In mobile and desktop tests, the test results are different due to the difference between the loading times of the pictures. Also, the low performance test results are due to the size of the image files used. The reason why the accessibility test results are at the 93-94 level is that no discernible text has been added to the `<a>` tag because of the SVG file inside the `<a>` tag used as the logo. Below are the test results according to the pages.
 
 **Mobile Test Results**
 
