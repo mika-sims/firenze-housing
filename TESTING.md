@@ -144,3 +144,7 @@ The responsive design tests were carried out manually with [Google Chrome DevToo
 The [a11y Color Contrast Accessibility Validator](https://color.a11y.com/) is used to validate the color contrast of the website. During the test phase, the orange text on the main page did not pass the test. Afterwards, the color of the text was changed and it passed the test successfully. Details are in the [Bugs](#bugs) section.
 
 ![Color Contrast Accessibility](assets/images/colour_scheme/color_contrast_accessibility_validation.png)
+
+## Cross-Browser Testing
+
+The website was manually tested in Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari and Internet Explorer and no bugs were found. All articles and images passed the test without any problems. Appearance, functionality, and responsiveness were consistent across various different sizes and browsers.
