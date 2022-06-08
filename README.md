@@ -198,7 +198,9 @@ The Navigation menu is fixed at the top of all pages to provide the user with ea
 
 - [Unsplash](https://unsplash.com/) was used as the image source for the website.
 
+# Testing
 
+- Please refer [here](TESTING.md) for more information on testing of the Firenze Housing website.
 
 
 
