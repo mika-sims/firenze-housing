@@ -4,10 +4,6 @@
 
 - [Code Validation](#code-validation)
     * [W3C HTML Validator](#w3c-html-validator) 
-        + [Home Page](#home-page)
-        + [Services Page](#services-page)
-        + [Contact Page](#contact-page)
-        + [Formdump Page](#formdump-page)
     * [W3C CSS Validator](#w3c-css-validator)
 - [Lighthouse](#lighthouse)
 - [Responsiveness](#responsiveness)
@@ -15,11 +11,8 @@
 - [Cross-Browser Testing](#cross-browser-testing)
 - [Testing User Stories](#testing-user-stories)
     * [Prospective Visitors](#prospective-visitors)
-    * [Website Owners](#website-owners)
-- [Peer Review](#peer-review)
-- [Bugs](#bugs)
-    * [Resolved](#resolved)
-    * [Unresolved](#unresolved)
+- [Bugs and Debugging](#bugs-and-debugging)
+
 
 ## Code Validation
 
@@ -151,7 +144,7 @@ The website was manually tested in Google Chrome, Mozilla Firefox, Microsoft Edg
 
 ## Testing User Stories
 
-### Prospective Customer
+### Prospective Visitors
 
 **For apartments and rooms;**
 
@@ -178,3 +171,25 @@ The website was manually tested in Google Chrome, Mozilla Firefox, Microsoft Edg
  - As a Firenze Housing website user, I would like to see detailed contact information of Firenze housing.
 
     * The user can easily see detailed contact information of Firenze housing from the "Find Us" section at the bottom of all pages.
+
+     **For storage services;**
+
+ - As a Firenze Housing website user, I would like to know if there is a storage service in cases where I do not want to pay the rent (holiday, trip, etc.).
+
+    * The user can see that Firenze Housing offers storage services both from the description in the services section on the homepage and from the illustrations at the end of the services page.
+
+ - As a Firenze Housing website user, I would like to see a detailed explanation of how the storage service is provided.
+
+    * The user can have information about how this service is implemented from the storage service section of the services page.
+
+## Bugs and Debugging
+
+During the development of the website, some minor bugs appeared due to misspellings and they were immediately debugged. Tests conducted towards the end of the development of the website revealed some minor bugs and were debugged. Some bugss and debugging methods are shown below.
+
+**Bugs**
+
+![Color Contrast Accessibility Bug](assets/images/colour_scheme/color_contrast_accessibility_validation_bug.png)
+
+- The color contrast issue here is resolved by using black text instead of orange. No errors were found as a result of subsequent testing.
+
+![Color Contrast Accessibility](assets/images/colour_scheme/color_contrast_accessibility_validation.png)
