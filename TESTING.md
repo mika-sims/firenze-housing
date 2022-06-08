@@ -214,7 +214,14 @@ During the development of the website, some minor bugs appeared due to misspelli
 
 For screens between 768px and 1024px, I could not decide whether two of the advertisement boxes in the services section should be next to each other, so I left them with only one advertisement to be seen for now.
 
----
+Most of the bugs encountered during the development phase were not recorded because they were debugged. For this reason, the bugs encountered in the last stages of the development phase are mentioned here.
+
+### Unresolved
+
+- The background image on the homepage behaves strangely when scrolling up and down. No debugging has been done about this.
+
+- Between 1024px and 1528px, the heights of the flats and house  boxes in the services section vary. Debugging attempts have been made about this, but no debugging has been done.
+
 ---
 
 - Go back to the [README](README.md) <<<<<<
