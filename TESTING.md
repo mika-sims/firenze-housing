@@ -193,3 +193,18 @@ During the development of the website, some minor bugs appeared due to misspelli
 - The color contrast issue here is resolved by using black text instead of orange. No errors were found as a result of subsequent testing.
 
 ![Color Contrast Accessibility](assets/images/colour_scheme/color_contrast_accessibility_validation.png)
+
+---
+
+- This bug was encountered because an attribute was not given to the 'select' element on line 78 of the contact.html file.
+
+![Contact Form Bug](assets/images/code_validations/contact.html_validation_error.png)
+
+- Debugging is done by giving 'id' and 'name' attributes to the 'select' element.
+
+![Contact Form Bug](assets/images/code_validations/contact.html_validation.png)
+
+---
+---
+
+- Go back to the [README](README.md) <<<<<<
