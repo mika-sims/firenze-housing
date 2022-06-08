@@ -35,9 +35,16 @@ Firenze Housing is a small company that offers quality and affordable rental apa
     + [Sub Navigations](#sub-navigations)
     + [Footer](#footer)
     + [404 Page](#404-page)
-- [**Features**](#features)
 - [**Technologies Used**](#technologies-used)
 - [**Testing**](#testing)
+- [**Features**](#features)
+  * [Home Page](#home-page)
+    + [Navigation Menu](#navigation-menu)
+    + [Services Section at Main Page](#services-section-at-main-page)
+    + [About Us](#about-us)
+    + [Find Us](#find-us)
+  * [Services](#services)
+  * [Contact](#contact)
 - [**Deployment**](#deployment)
 - [**Credits**](#credits)
 
@@ -98,11 +105,15 @@ A minimal color scheme and typography have been chosen to create a simple, eye-c
 
 - Black color is used in the general font and icons of the site.
 
+[Back to contents](<#contents>)
+
 ### Typography
 
 - In order to have a simple design, two fonts are used. Syncopate was used for the main title and sub-titles, and Serif was used as its fallback. In order to attract attention to the main headings,underline decoration was applied. This is not implemented in the subheadings.
 
 - All remaining sections of the website (navigation menu, descriptions, etc.) use Yanone Kaffeesatz and Sans-serif as fallback font.
+
+[Back to contents](<#contents>)
 
 ### Imagery
 
@@ -114,11 +125,15 @@ A minimal color scheme and typography have been chosen to create a simple, eye-c
 
 - In addition, the images used in the presentation of the rented apartments and rooms have been chosen to describe the service itself.
 
+[Back to contents](<#contents>)
+
 ### Icons and Illustrations
 
 - All the icons in the services section and in the rental apartments and rooms section are selected from the free icons on the [Font Awesome](https://fontawesome.com/) website.
 
 - All illustrations used in the Find Us section and the Storage service section of the site have been downloaded as PNG from the [Storyset](https://storyset.com/) site. Attribute is made to Storyset in the index.html file.
+
+[Back to contents](<#contents>)
 
 ### Logo and Favicon
 
@@ -222,6 +237,8 @@ The Navigation menu is fixed at the top of all pages to provide the user with ea
 
 The primary purpose of the Firenze Housing website is to provide a simple and purposeful presentation that does not tire the user's eyes. With this in mind, the Firenze Housing website has been developed, which informs the user about the service they want to receive, with a simple but explanatory content.
 
+[Back to contents](<#contents>)
+
 - ## Home Page
 
 According to research by Nielsen Norman Group, a large majority of website users read written content as an F-shape pattern. The home page of Firenze Housing website has also been designed in accordance with this pattern.
@@ -230,6 +247,8 @@ According to research by Nielsen Norman Group, a large majority of website users
 
 
 ![Home Page](assets/images/features/home_page.png)
+
+[Back to contents](<#contents>)
 
   ### Navigation Menu
 
@@ -243,11 +262,15 @@ It is fully responsive, fixed at the top of all pages on the site, and includes 
 
   ![Home Page](assets/images/features/nav_bar_mobile.png)
 
-**Services Section at Main Page**
+[Back to contents](<#contents>)
+
+### Services Section at Main Page
 
 - When the user scrolls down from the main page, a short text of slogan and four sub-links that lead to the relevant section on the Services page are seen. Michelangelo's Statue of David is placed in the background to be relevant to Firenze and to attract the attention of the user.
 
   ![Services Section at Main page](assets/images/features/services_section.png)
+
+[Back to contents](<#contents>)
 
 ### About Us
 
@@ -255,13 +278,17 @@ It is fully responsive, fixed at the top of all pages on the site, and includes 
 
   ![About Us Page](assets/images/features/about_page.png)
 
-**Find Us**
+[Back to contents](<#contents>)
+
+### Find Us
 
 - When the user continues to scroll down, a Find Us section is seen just below the About Us section, at the end of the page, where there are informations about the Firenze Housing's detailed contact information and links to the Firenze Housing's social media accounts.
 
 - Find Us section can be seen at the bottom of all pages.
 
    ![Find Us Section](assets/images/features/find_us.png)
+
+[Back to contents](<#contents>)
 
 ## Services 
 
@@ -284,6 +311,8 @@ When user scroll down, she/he will find detailed information about Single Bed Ro
 - Storage
 ![Services Page](assets/images/features/services_page_storage.png)
 
+[Back to contents](<#contents>)
+
 ## Contact
 
 The contact page is a simple page containing the contact form and other contact information about Firenze Housing. Here, the user can request information by entering short information in the contact form and selecting the service for which he/she wants to receive information.
@@ -292,8 +321,12 @@ The contact page is a simple page containing the contact form and other contact 
 
 ![Services Page](assets/images/features/contact_page.png)
 
+[Back to contents](<#contents>)
+
 ## Formdump Page
 
 The formdump page can also be seen as the form validation page. The user is directed to this page after filling out the contact form completely and submitting it. The formdump page contains a thank you message and text stating that Firenze Housing will respond as soon as possible.
 
 ![Services Page](assets/images/features/formdump_page.png)
+
+[Back to contents](<#contents>)
