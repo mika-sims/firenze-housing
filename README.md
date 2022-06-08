@@ -36,8 +36,6 @@ Firenze Housing is a small company that offers quality and affordable rental apa
     + [Footer](#footer)
     + [404 Page](#404-page)
 - [Technologies Used](#technologies-used)
-  + [Languages Used](#languages-used)
-  + [Frameworks Libraries and Programs](#frameworks-libraries-and-programs)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
