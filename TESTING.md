@@ -11,7 +11,9 @@
 - [Cross-Browser Testing](#cross-browser-testing)
 - [Testing User Stories](#testing-user-stories)
     * [Prospective Visitors](#prospective-visitors)
-- [Bugs and Debugging](#bugs-and-debugging)
+- [Bugs](#bugs-and-debugging)
+    * [Resolved](#resolved)
+    * [Unresolved](#unresolved)
 
 
 ## Code Validation
@@ -188,6 +190,8 @@ During the development of the website, some minor bugs appeared due to misspelli
 
 **Bugs**
 
+### Resolved
+
 ![Color Contrast Accessibility Bug](assets/images/colour_scheme/color_contrast_accessibility_validation_bug.png)
 
 - The color contrast issue here is resolved by using black text instead of orange. No errors were found as a result of subsequent testing.
@@ -203,6 +207,12 @@ During the development of the website, some minor bugs appeared due to misspelli
 - Debugging is done by giving 'id' and 'name' attributes to the 'select' element.
 
 ![Contact Form Bug](assets/images/code_validations/contact.html_validation.png)
+
+---
+
+- In addition;
+
+For screens between 768px and 1024px, I could not decide whether two of the advertisement boxes in the services section should be next to each other, so I left them with only one advertisement to be seen for now.
 
 ---
 ---
