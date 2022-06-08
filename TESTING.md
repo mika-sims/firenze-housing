@@ -2,6 +2,11 @@
 
   The website has been extensively tested. The following tests were applied during the development.
 
+
+# Table of Contents 
+
+## Contents
+
 - [Code Validation](#code-validation)
     * [W3C HTML Validator](#w3c-html-validator) 
     * [W3C CSS Validator](#w3c-css-validator)
@@ -11,7 +16,7 @@
 - [Cross-Browser Testing](#cross-browser-testing)
 - [Testing User Stories](#testing-user-stories)
     * [Prospective Visitors](#prospective-visitors)
-- [Bugs](#bugs-and-debugging)
+- [Bugs](#bugs)
     * [Resolved](#resolved)
     * [Unresolved](#unresolved)
 
@@ -19,6 +24,8 @@
 ## Code Validation
 
 All the HTML and CSS codes have been tested in the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There was a minor bug in the contact.html file and it was easily fixed. Details are in the [Bugs](#bugs) section.
+
+[Back to contents](<#contents>)
 
 ### W3C HTML Validator
 
@@ -40,11 +47,14 @@ The main page, services page, contact form page and formdump page have been test
 
 ![W3C HTML Validator](assets/images/code_validations/formdump.html_validation.png)
 
+
 ### W3C CSS Validator
 
 An external stylesheet file is used for all HTML files. Below is the result of the W3C CSS Validator.
 
 ![W3C CSS Validator](assets/images/code_validations/css_validation.png)
+
+[Back to contents](<#contents>)
 
 ## Lighthouse
 
@@ -56,25 +66,18 @@ All pages of the website have been tested separately by Google DevTools' Google 
 
 ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_main_page_mobile.png)
 
----
-
 * Services Page
 
 ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_services_page_mobile.png)
-
----
 
 * Contact Page
 
 ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_contact_page_mobile.png)
 
----
-
 * Formdump Page
 
 ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_formdump_page_mobile.png)
 
----
 ---
 
 **Desktop Test Results**
@@ -83,23 +86,19 @@ All pages of the website have been tested separately by Google DevTools' Google 
 
 ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_main_page_desktop.png)
 
----
-
 * Services Page
 
 ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_services_page_desktop.png)
-
----
 
 * Contact Page
 
 ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_contact_page_desktop.png)
 
----
-
 * Formdump Page
 
 ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_formdump_page_desktop.png)
+
+[Back to contents](<#contents>)
 
 ## Responsiveness
 
@@ -113,7 +112,6 @@ The responsive design tests were carried out manually with [Google Chrome DevToo
 | Images | passed   | passed      | passed   | passed       | passed    | passed       | passed     |passed     |
 | Links  | passed   | passed      | passed   | passed       | passed    | passed       | passed     |passed     |
 
----
 
 **Tablet Test**
 
@@ -123,7 +121,6 @@ The responsive design tests were carried out manually with [Google Chrome DevToo
 | Images | passed    | passed   | passed        | passed  | passed    | passed        | passed      |passed       |
 | Links  | passed    | passed   | passed        | passed  | passed    | passed        | passed      |passed       |
 
----
 
 **Desktop Test**
 
@@ -134,15 +131,21 @@ The responsive design tests were carried out manually with [Google Chrome DevToo
 | Links  | passed   | passed    |
 
 
+[Back to contents](<#contents>)
+
 ## Color Contrast Accessibility Validation
 
 The [a11y Color Contrast Accessibility Validator](https://color.a11y.com/) is used to validate the color contrast of the website. During the test phase, the orange text on the main page did not pass the test. Afterwards, the color of the text was changed and it passed the test successfully. Details are in the [Bugs](#bugs) section.
 
 ![Color Contrast Accessibility](assets/images/colour_scheme/color_contrast_accessibility_validation.png)
 
+[Back to contents](<#contents>)
+
 ## Cross-Browser Testing
 
 The website was manually tested in Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari and Internet Explorer and no bugs were found. All articles and images passed the test without any problems. Appearance, functionality, and responsiveness were consistent across various different sizes and browsers.
+
+[Back to contents](<#contents>)
 
 ## Testing User Stories
 
@@ -184,11 +187,12 @@ The website was manually tested in Google Chrome, Mozilla Firefox, Microsoft Edg
 
     * The user can have information about how this service is implemented from the storage service section of the services page.
 
-## Bugs and Debugging
+[Back to contents](<#contents>)
 
-During the development of the website, some minor bugs appeared due to misspellings and they were immediately debugged. Tests conducted towards the end of the development of the website revealed some minor bugs and were debugged. Some bugss and debugging methods are shown below.
+## Bugs
 
-**Bugs**
+During the development of the website, some minor bugs appeared due to misspellings and they were immediately debugged. Tests conducted towards the end of the development of the website revealed some minor bugs and were debugged. Some bugss and debuggings are shown below.
+
 
 ### Resolved
 
@@ -208,7 +212,6 @@ During the development of the website, some minor bugs appeared due to misspelli
 
 ![Contact Form Bug](assets/images/code_validations/contact.html_validation.png)
 
----
 
 - In addition;
 
@@ -222,6 +225,6 @@ Most of the bugs encountered during the development phase were not recorded beca
 
 - Between 1024px and 1528px, the heights of the flats and house  boxes in the services section vary. Debugging attempts have been made about this, but no debugging has been done.
 
----
+[Back to contents](<#contents>)
 
 - Go back to the [README](README.md) <<<<<<

@@ -67,6 +67,8 @@ Firenze Housing is a small company that offers quality and affordable rental apa
 - As a website owner, I want users to easily reach the service they want to reach while using the website
 - As a website owner, I want contact information and social media links accessible to increase business visibility
 
+[Back to contents](<#contents>)
+
 ## Wireframes
 
 Before the website was created, the wireframes were designed with the wireframe design tool Balsemiq. A number of distinct differences emerged between the wireframe design and the final website design. One of the reasons is that a simpler design idea has emerged than the wireframe design. 
@@ -77,6 +79,7 @@ Before the website was created, the wireframes were designed with the wireframe 
 
 Wireframes design fils can be find at [Wireframe](assets/images/wireframes) image folder.
 
+[Back to contents](<#contents>)
 
 ## Design
 
@@ -128,6 +131,8 @@ A minimal color scheme and typography have been chosen to create a simple, eye-c
 
 - A simple favicon design has been obtained by enclosing the first letters of the words in Firenze Housing company in the shape of a circle with a white background.
 
+[Back to contents](<#contents>)
+
 ## Structure 
 
 The site consists of index.html, services.html, contact.html pages. 
@@ -138,6 +143,8 @@ The site consists of index.html, services.html, contact.html pages.
 
 - On the Contact (contact.html) page, there is a form that allows the user to contact Firenze Housing for the requested service. When the form is filled and the request is sent, a new page opens with the message 'Thank you for the service request'.
 
+[Back to contents](<#contents>)
+
 ### Navigation Bar
 
 ![Navigation Bar](assets/images/structure/navigation_structure.png)
@@ -147,6 +154,8 @@ The Navigation menu is fixed at the top of all pages to provide the user with ea
 ![Navigation Bar](assets/images/structure/navigation_mobile_structure.png)
 
 - On screens with 719 px and below, the logo goes over the navigation menu links.
+
+[Back to contents](<#contents>)
 
 ### Sub navigations
 
@@ -162,11 +171,15 @@ The Navigation menu is fixed at the top of all pages to provide the user with ea
 
 - When the services section in the navbar menu is clicked, a detailed explanation about the service types offered is displayed on the new page that opens. The "Book Now" and "INFO" sub-navigations on the pictures and illustrations direct the user to the contact form where they can contact Firenze Housing and request the desired service.
 
+[Back to contents](<#contents>)
+
 ### Footer
 
 ![Contact Us Navigation](assets/images/structure/footer_nav.png)
 
 - At the bottom of all independent pages, there are icons of social media accounts that direct the user to Firenze Housing's social media accounts. As soon as one of these icons is clicked, the social media account is opened in a new tab.
+
+[Back to contents](<#contents>)
 
 # Technologies Used
 
@@ -196,9 +209,13 @@ The Navigation menu is fixed at the top of all pages to provide the user with ea
 
 - [Unsplash](https://unsplash.com/) was used as the image source for the website.
 
+[Back to contents](<#contents>)
+
 # Testing
 
 - Please refer [here](TESTING.md) for more information on testing of the Firenze Housing website.
+
+[Back to contents](<#contents>)
 
 
 
