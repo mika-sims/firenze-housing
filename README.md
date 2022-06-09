@@ -354,6 +354,8 @@ GitHub, GitPod and Git were used in the deployment process of the website. To ma
 
     ![Deployment](assets/images/deployment/deployment.png)
 
+    [Back to contents](<#contents>)
+
     **How to fork repo**
 
     1. Go to mika-sims/firenze-residence repository.
@@ -382,3 +384,5 @@ GitHub, GitPod and Git were used in the deployment process of the website. To ma
     7. Press enter and the local clone will be created.
 
     ![Clone Repo](assets/images/deployment/clone.png)
+
+    [Back to contents](<#contents>)
