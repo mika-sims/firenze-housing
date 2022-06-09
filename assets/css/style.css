@@ -268,11 +268,12 @@ p {
 }
 
 .social-media-links {
+  width: 100vw;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 1em auto 0;
+  margin: 1em auto;
 }
 
 .fa-brands {
@@ -689,6 +690,7 @@ textarea {
 #form-sub-msg .horizontal-line {
   margin: 3em auto;
   height: 5px;
+  width: 70%;
 }
 
 .form-submission>footer {
