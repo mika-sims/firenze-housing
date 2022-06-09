@@ -406,6 +406,8 @@ GitHub, GitPod and Git were used in the deployment process of the website. To ma
  - All icons are taken from [Font Awesome](https://fontawesome.com/)
  - All fonts are imported from [Google Fonts](https://fonts.google.com/)
 
+ [Back to contents](<#contents>)
+
 # Acknowledgements
 
 I would like to thanks;
@@ -423,3 +425,5 @@ I would like to thanks;
  - [Anna Gabain](https://github.com/annagabain/)
 
  for their comments, ideas and contributions to the development of the project.
+
+ [Back to top](<#contents>)
