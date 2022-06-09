@@ -331,3 +331,54 @@ The formdump page can also be seen as the form validation page. The user is dire
 ![Services Page](assets/images/features/formdump_page.png)
 
 [Back to contents](<#contents>)
+
+# Deployment
+
+GitHub, GitPod and Git were used in the deployment process of the website. To make the project live the website was deployed to GitHub pages.  The stages of the deployment took place as follows.
+
+   1. I created a repository called firenze-housing by cloning the Code Institute student template for Gitpod. You can see the Code Institute GitPod template for students repo here. >>> [GitPod Student Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+   ![Clone Repo](assets/images/deployment/repo_clone.png)
+
+   2. After cloning the repo, I opened it with GitPod
+
+   ![Open Repo with GitPod](assets/images/deployment/open_repo_with_gitpo.png)
+
+   3. After opening the repo with GitPod, I created the project files and folders using the touch (create new file) and mkdir (create new folder) terminal commands.
+
+   4. After creating the files and folders, I often used the "git add" and "git commit" commands to track the progress of the project and the changes made. When I took a break from work or at the end of the day, I uploaded the content of the work I did with the "git push" command to the GitHub repo.
+
+   5. To make the project live, we click on the Settings tab from the project's GitHub repository. Then, we click on Pages from the navigation menu on the left side of the General page that opens. In the GitHub pages section that appears, we select the "main" branch from the Source section and deploy the page.
+
+  - All stages are explained with the image below.
+
+    ![Deployment](assets/images/deployment/deployment.png)
+
+    **How to fork repo**
+
+    1. Go to mika-sims/firenze-residence repository.
+
+    2. In the top right corner of the page, click Fork to create a copy of the original repository with all the commit history in your GitHub Account. Forking will not affect to the original repository.
+
+    ![Fork Repo](assets/images/deployment/fork.png)
+
+    **Create Local Clone of Repo**
+
+    1. Go to mika-sims/firenze-residence repository.
+
+    2. Click Code section. 
+
+    3. Three different options are offered for cloning. 
+
+       - Clone the repository using HTTPS (We will use this one) 
+       - Clone the repository using an SSH key 
+       - Clone a repository using GitHub CLI
+    4. Open Git Bash in your Integrated development environment (IDE) of choice.
+
+    5. Navigate to the directory where you want the clone to be created.
+
+    6. Type "git clone" and then paste the URL copied from GitHub repo.
+
+    7. Press enter and the local clone will be created.
+
+    ![Clone Repo](assets/images/deployment/clone.png)
