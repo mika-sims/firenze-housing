@@ -391,22 +391,35 @@ GitHub, GitPod and Git were used in the deployment process of the website. To ma
 
 # Credits
 
-## Code
+ ## Code
 
-- The code with which we can adjust the opacity of the background image without affecting the text is taken from [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
+ - The code with which we can adjust the opacity of the background image without affecting the text is taken from [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
 
-- The idea that the SVG file can be used within the `<svg>` tag in HTML is taken from [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg).
+ - The idea that the SVG file can be used within the `<svg>` tag in HTML is taken from [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg).
 
-- The code for adding favicon is taken from [w3schools](https://www.w3schools.com/html/html_favicon.asp).
+ - The code for adding favicon is taken from [w3schools](https://www.w3schools.com/html/html_favicon.asp).
 
-## Media
+ ## Media
 
-- All images are taken from [Unsplash](https://unsplash.com/)
-- All illustrations are taken from [Storyset](https://storyset.com/)
-- All icons are taken from [Font Awesome](https://fontawesome.com/)
-- All fonts are imported from [Google Fonts](https://fonts.google.com/)
+ - All images are taken from [Unsplash](https://unsplash.com/)
+ - All illustrations are taken from [Storyset](https://storyset.com/)
+ - All icons are taken from [Font Awesome](https://fontawesome.com/)
+ - All fonts are imported from [Google Fonts](https://fonts.google.com/)
 
+# Acknowledgements
 
+I would like to thanks;
 
-    
+ - to [Code Institute](https://codeinstitute.net/global/) for course content
+ - to my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for guiding me
+ - to [Cuneyt Ergun](https://www.linkedin.com/in/cuneytergun/), who guided me with his ideas
+ 
+ and to Code Institute's Slack community
 
+ - [David Reynolds](https://github.com/FluffyBullet)
+ - [Hiwa Awrel](https://github.com/AwrelH/)
+ - [Cara Mc Avinchey](https://github.com/CaraMcAvinchey)
+ - [Laura Taipale](https://github.com/CozyPlantlady)
+ - [Anna Gabain](https://github.com/annagabain/)
+
+ for their comments, ideas and contributions to the development of the project.
