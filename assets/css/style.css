@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
 
 /* ===== Apply general style properties ===== */
-
 * {
   scroll-behavior: smooth;
 }
@@ -44,7 +43,6 @@ h3 {
 }
 
 /* ===== Header/Navbar section ===== */
-
 #header {
   width: 100vw;
   height: 5em;
@@ -87,12 +85,9 @@ h3 {
 }
 
 /* ===== Hero section ===== */
-
 main {
-padding-top: 5em;
+  padding-top: 5em;
 }
-
-
 
 .container {
   width: 100%;
@@ -149,9 +144,7 @@ padding-top: 5em;
   line-height: 1.6em;
 }
 
-
-/* ===== Services section ===== */ 
-
+/* ===== Services section ===== */
 .container-column {
   display: flex;
   flex-direction: column;
@@ -206,8 +199,7 @@ padding-top: 5em;
 }
 
 /* ===== About us section ===== */
-
-#about_us > .container {
+#about_us>.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -248,7 +240,6 @@ padding-top: 5em;
 }
 
 /* ===== Find us section ===== */
-
 .find_us>.container {
   flex-direction: column;
   align-items: center;
@@ -296,7 +287,6 @@ p {
   margin: 1em auto;
 }
 
-
 /* ========================= services.html  ========================= */
 
 /* ===== Hero section ===== */
@@ -339,11 +329,12 @@ p {
 }
 
 /* ====== Services general style ===== */
-
-#apartments, #single-bed, #double-bed, #storage {
+#apartments,
+#single-bed,
+#double-bed,
+#storage {
   padding-top: 5em;
 }
-
 
 section h2 {
   text-align: center;
@@ -411,7 +402,6 @@ section h2 {
 }
 
 /* ====== Apartments section ====== */
-
 .apt-img-box {
   width: 90vw;
   height: 15em;
@@ -452,7 +442,6 @@ section h2 {
 }
 
 /* ====== Single bed rooms section ====== */
-
 .single-img-box {
   width: 90vw;
   height: 15em;
@@ -492,9 +481,7 @@ section h2 {
   background-size: cover;
 }
 
-
 /* ====== Double bed rooms section ====== */
-
 .double-img-box {
   width: 90vw;
   height: 15em;
@@ -504,7 +491,6 @@ section h2 {
 }
 
 .double-img-box a {
-
   background-color: aquamarine;
   height: fit-content;
   width: fit-content;
@@ -534,9 +520,7 @@ section h2 {
   background-size: cover;
 }
 
-
 /* ====== Storage section ====== */
-
 .storage-img-box {
   width: 90vw;
   height: 15em;
@@ -572,37 +556,29 @@ section h2 {
   margin-bottom: 2em;
 }
 
-
 .content:nth-child(1) .storage-img-box {
   background: url("../images/packing.png") no-repeat center center;
   background-size: contain;
-
 }
 
 .content:nth-child(2) .storage-img-box {
   background: url("../images/pick-up.png") no-repeat center center;
   background-size: contain;
-
 }
 
 .content:nth-child(3) .storage-img-box {
   background: url("../images/storage.png") no-repeat center center;
   background-size: contain;
-
 }
 
 .content:nth-child(4) .storage-img-box {
   background: url("../images/delivery.png") no-repeat center center;
   background-size: contain;
-
 }
-
-
 
 /* ==================== Contact Form ==================== */
 
 /* ====== Form section ===== */
-
 #form {
   display: flex;
   flex-direction: column;
@@ -654,13 +630,11 @@ select {
 
 select {
   color: #000000;
-  
 }
 
 optgroup>label {
   background-color: white;
   padding: .5em;
-  
 }
 
 ::placeholder {
@@ -697,15 +671,12 @@ textarea {
 
 /* ===== Footer-address  ===== */
 
-
 /* ===== Form submission message ===== */
-
 #form-sub-msg {
   text-align: center;
 }
 
 .submission-msg {
-
   font-size: 2.5em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 500;
@@ -721,7 +692,7 @@ textarea {
   height: 5px;
 }
 
-.form-submission > footer {
+.form-submission>footer {
   margin-top: 5em;
 }
 
@@ -730,13 +701,11 @@ textarea {
 @media screen and (min-width: 375px) {
 
   /* ===== Header/Navbar section ===== */
-
   .nav-menu a {
     font-size: 1.2em;
   }
 
   /* ===== Hero section ===== */
-
   .container_right h1 {
     font-size: 1.7em;
   }
@@ -744,18 +713,16 @@ textarea {
   .container_left img {
     width: 8em;
   }
-
 }
 
 @media screen and (min-width: 425px) {
-  /* ===== Header/Navbar section ===== */
 
+  /* ===== Header/Navbar section ===== */
   .nav-menu a {
     font-size: 1.3em;
   }
 
   /* ===== Hero section ===== */
-
   .container_right h1 {
     font-size: 1.9em;
   }
@@ -767,13 +734,11 @@ textarea {
   .container_left a {
     font-size: 1.4em;
   }
-
 }
 
 @media screen and (min-width: 768px) {
 
   /* ===== Header/Navbar section ===== */
-
   .nav-bar {
     flex-direction: row;
     margin: 1em;
@@ -789,7 +754,6 @@ textarea {
   }
 
   /* ===== Hero section ===== */
-
   .container_right h1 {
     font-size: 3.5em;
     margin-bottom: 4em;
@@ -810,7 +774,6 @@ textarea {
   }
 
   /* ===== Services (index.html) section ===== */
-
   .container.container-column h2 {
     font-size: 2em;
     margin-top: 2em;
@@ -843,10 +806,10 @@ textarea {
 
   /* ====== Services (services.html) general style ===== */
 
+  /* ===== Heading ===== */
   .hero-left h1,
   .hero-right h1 {
     font-size: 3em;
-    /* ===== Heading ===== */
   }
 
   h2 {
@@ -868,7 +831,6 @@ textarea {
 
   .icons p {
     font-size: 1.4em;
-
   }
 
   .content a,
@@ -876,9 +838,7 @@ textarea {
     font-size: 1.2em;
   }
 
-
   /* ===== Footer section ===== */
-
   address a,
   p {
     font-size: 1.2em;
@@ -887,13 +847,11 @@ textarea {
   .fa-brands {
     font-size: 1.7em;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
 
   /* ===== Header/Navbar section ===== */
-
   .logo {
     width: 14em;
   }
@@ -903,14 +861,12 @@ textarea {
   }
 
   /* ===== Hero section ===== */
-
   .container_right h1 {
     font-size: 4.5em;
     margin: 0 0 2em 0;
   }
 
   /* ===== Services (index.html) section ===== */
-
   .wrapper {
     margin: 5em;
   }
@@ -926,7 +882,6 @@ textarea {
   }
 
   /* ====== Services (services.html) general style ===== */
-
   .hero-left h1,
   .hero-right h1 {
     font-size: 4em;
@@ -999,5 +954,4 @@ textarea {
   .storage-img-box {
     width: 100%;
   }
-
 }
