@@ -48,6 +48,7 @@ Firenze Housing is a small company that offers quality and affordable rental apa
   * [Formdump Page](#formdump-page)
 - [**Deployment**](#deployment)
 - [**Credits**](#credits)
+- [**Acknowledgements**](#acknowledgements)
 
 
 # User experience
@@ -80,7 +81,7 @@ Firenze Housing is a small company that offers quality and affordable rental apa
 
 - ## Wireframes
 
-Before the website was created, the wireframes were designed with the wireframe design tool Balsemiq. A number of distinct differences emerged between the wireframe design and the final website design. One of the reasons is that a simpler design idea has emerged than the wireframe design. 
+Before the website was created, the wireframes were designed with the wireframe design tool [Balsamiq](https://balsamiq.com/). A number of distinct differences emerged between the wireframe design and the final website design. One of the reasons is that a simpler design idea has emerged than the wireframe design. 
 
 - Instead of creating a separate page for the storage service section, information about the content of this service had been added to the end of the services page before the find us section.
 
@@ -375,6 +376,7 @@ GitHub, GitPod and Git were used in the deployment process of the website. To ma
        - Clone the repository using HTTPS (We will use this one) 
        - Clone the repository using an SSH key 
        - Clone a repository using GitHub CLI
+
     4. Open Git Bash in your Integrated development environment (IDE) of choice.
 
     5. Navigate to the directory where you want the clone to be created.
@@ -386,3 +388,25 @@ GitHub, GitPod and Git were used in the deployment process of the website. To ma
     ![Clone Repo](assets/images/deployment/clone.png)
 
     [Back to contents](<#contents>)
+
+# Credits
+
+## Code
+
+- The code with which we can adjust the opacity of the background image without affecting the text is taken from [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
+
+- The idea that the SVG file can be used within the `<svg>` tag in HTML is taken from [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg).
+
+- The code for adding favicon is taken from [w3schools](https://www.w3schools.com/html/html_favicon.asp).
+
+## Media
+
+- All images are taken from [Unsplash](https://unsplash.com/)
+- All illustrations are taken from [Storyset](https://storyset.com/)
+- All icons are taken from [Font Awesome](https://fontawesome.com/)
+- All fonts are imported from [Google Fonts](https://fonts.google.com/)
+
+
+
+    
+
