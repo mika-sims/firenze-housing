@@ -341,8 +341,8 @@ section h2 {
 }
 
 .container-services {
-  margin: 1em auto 5em;
-  width: 90vw;
+  margin: 1em 0 5em 0;
+  width: 100vw;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -741,8 +741,8 @@ textarea {
   /* ===== Header/Navbar section ===== */
   .nav-bar {
     flex-direction: row;
-    margin: 1em;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 5em;
   }
 
   .logo {
@@ -817,20 +817,21 @@ textarea {
   }
 
   .info-content p {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-left: .1em;
   }
 
   .fa-solid {
-    font-size: 1.2em;
+    font-size: 1em;
+    margin-right: 1em;
   }
 
   .mid-line {
-    height: 14em;
+    height: 10em;
   }
 
   .icons p {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 
   .content a,
@@ -872,13 +873,12 @@ textarea {
   }
 
   .wrapper a {
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin: 0;
   }
 
   .fa-solid {
     font-size: 2em;
-    margin: 2em 0;
   }
 
   /* ====== Services (services.html) general style ===== */
@@ -896,12 +896,11 @@ textarea {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    margin: 1em;
   }
 
   .content {
     width: 21%;
-    margin: 0 0 1em 0;
+    margin: 0 auto;
     border: 3px solid #242929;
   }
 
@@ -912,7 +911,7 @@ textarea {
   }
 
   .align-icon {
-    margin: -.5em .2em;
+    margin: 0 .2em;
     align-items: center;
   }
 
@@ -923,10 +922,11 @@ textarea {
 
   .fa-solid {
     font-size: .8em;
+    margin-right: 1em;
   }
 
   .mid-line {
-    height: 10em;
+    height: 14em;
     width: 3px;
     background-color: chocolate;
   }
