@@ -744,12 +744,13 @@ textarea {
   /* ===== Header/Navbar section ===== */
   .nav-bar {
     flex-direction: row;
-    justify-content: space-around;
-    margin-left: 5em;
+    justify-content: space-between;
+    margin: 1em;
   }
 
   .logo {
     width: 12em;
+    margin-left: 1em;
   }
 
   .nav-menu a {
@@ -887,12 +888,7 @@ textarea {
   }
 
   /* ====== Services (services.html) general style ===== */
-  .hero-left h1,
-  .hero-right h1 {
-    font-size: 4em;
-    /* ===== Heading ===== */
-    margin-bottom: 1.8em;
-  }
+  
 
   .container-services {
     width: 100vw;
@@ -905,6 +901,7 @@ textarea {
 
   .content {
     width: 21%;
+    height: 30em;
     margin: 0 auto;
     border: 3px solid #242929;
   }
@@ -913,6 +910,7 @@ textarea {
     max-width: 100%;
     display: flex;
     flex-direction: row;
+    height: 65%;
   }
 
   .align-icon {
@@ -958,5 +956,10 @@ textarea {
 
   .storage-img-box {
     width: 100%;
+    height: 80%;
+  }
+
+  #storage .info-box {
+    height: 20%;
   }
 }
