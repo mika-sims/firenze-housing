@@ -188,7 +188,7 @@ main {
   font-size: 1.2em;
   color: #ffffff;
   transition: color .5s;
- 
+
 }
 
 .fa-solid {
@@ -291,44 +291,6 @@ p {
 
 /* ========================= services.html  ========================= */
 
-/* ===== Hero section ===== */
-.hero {
-  width: 100vw;
-  height: 20vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 2em;
-}
-
-.hero-left {
-  width: 50vw;
-  height: 20vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  background-color: #006161;
-}
-
-.hero-right {
-  width: 50vw;
-  height: 20vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.hero-left h1 {
-  margin-top: 1em;
-  color: #eff0f1;
-}
-
-.hero-right h1 {
-  margin-top: 3em;
-  color: #006161;
-}
 
 /* ====== Services general style ===== */
 #apartments,
@@ -811,12 +773,6 @@ textarea {
 
   /* ====== Services (services.html) general style ===== */
 
-  /* ===== Heading ===== */
-  .hero-left h1,
-  .hero-right h1 {
-    font-size: 3em;
-  }
-
   h2 {
     font-size: 1.8em;
   }
@@ -888,7 +844,7 @@ textarea {
   }
 
   /* ====== Services (services.html) general style ===== */
-  
+
 
   .container-services {
     width: 100vw;
