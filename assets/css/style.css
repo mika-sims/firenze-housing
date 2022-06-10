@@ -360,7 +360,7 @@ section h2 {
 }
 
 .price {
-  background-color: aquamarine;
+  background-color: #ff8749;
   width: fit-content;
   height: fit-content;
   text-align: start;
@@ -412,7 +412,7 @@ section h2 {
 
 .apt-img-box a {
 
-  background-color: aquamarine;
+  background-color: #ff8749;
   height: fit-content;
   width: fit-content;
   color: black;
@@ -452,7 +452,7 @@ section h2 {
 
 .single-img-box a {
 
-  background-color: aquamarine;
+  background-color: #ff8749;
   height: fit-content;
   width: fit-content;
   color: black;
@@ -491,7 +491,7 @@ section h2 {
 }
 
 .double-img-box a {
-  background-color: aquamarine;
+  background-color: #ff8749;
   height: fit-content;
   width: fit-content;
   color: black;
