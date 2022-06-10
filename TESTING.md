@@ -104,6 +104,8 @@ All pages of the website have been tested separately by Google DevTools' Google 
 
 The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/).
 
+- All the devices mentioned below are included in the Developer Tool.
+
 **Mobile Test**
 
 |        | iPhone 4 | iPhone 5/SE | iPhone 5 | iPhone 6/7/8 | Galaxy S8 | Galaxy S III | Galaxy S9+ | Lumia 520 |
@@ -221,9 +223,9 @@ Most of the bugs encountered during the development phase were not recorded beca
 
 ### Unresolved
 
-- The background image on the homepage behaves strangely when scrolling up and down. No debugging has been done about this.
+- The background image on the homepage behaves strangely sometimes when scrolling up and down on mobile devices. No debugging has been done about this.
 
-- Between 1024px and 1528px, the heights of the flats and house  boxes in the services section vary. Debugging attempts have been made about this, but no debugging has been done.
+- Sometimes horizontal scroll bar appears at the bottom of the pages and no debugging could be done about it.
 
 [Back to contents](<#contents>)
 
