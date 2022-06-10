@@ -34,9 +34,6 @@ Firenze Housing is a small company that offers quality and affordable rental apa
     + [Navigation Bar](#navigation-bar)
     + [Sub Navigations](#sub-navigations)
     + [Footer](#footer)
-    + [404 Page](#404-page)
-- [**Technologies Used**](#technologies-used)
-- [**Testing**](#testing)
 - [**Features**](#features)
   * [Home Page](#home-page)
     + [Navigation Menu](#navigation-menu)
@@ -46,6 +43,8 @@ Firenze Housing is a small company that offers quality and affordable rental apa
   * [Services](#services)
   * [Contact](#contact)
   * [Formdump Page](#formdump-page)
+- [**Technologies Used**](#technologies-used)
+- [**Testing**](#testing)
 - [**Deployment**](#deployment)
 - [**Credits**](#credits)
 - [**Acknowledgements**](#acknowledgements)
@@ -153,7 +152,7 @@ A minimal color scheme and typography have been chosen to create a simple, eye-c
 
 The site consists of index.html, services.html, contact.html pages. 
 
-- Home page (index.html) is the main page and when we scroll down, a subsection called services is seen. There are icons and short-explanatory texts that provide the transition from this section to the specific services section. When we continue to scroll down, the About Us section appears. In this section, there is a text describing the mission and vision of Firenze Housing. At the end of this page, there is a Find Us section with contact information. This section contains detailed information on how to contact Firenze Housing.
+- Home page (index.html) is the main page and when we scroll down, a subsection called Services is seen. There are icons and short-explanatory texts that provide the transition from this section to the specific Services section. When we continue to scroll down, the About Us section appears. In this section, there is a text describing the mission and vision of Firenze Housing. At the end of this page, there is a Find Us section with contact information. This section contains detailed information on how to contact Firenze Housing.
 
 - On the Services (services.html) page, there are detailed information about rental apartments, room and storage services, and pictures of rental apartments and rooms.
 
@@ -195,42 +194,6 @@ The site consists of index.html, services.html, contact.html pages.
 ![Contact Us Navigation](assets/images/structure/footer_nav.png)
 
 - At the bottom of all independent pages, there are icons of social media accounts that direct the user to Firenze Housing's social media accounts. As soon as one of these icons is clicked, the social media account is opened in a new tab.
-
-[Back to contents](<#contents>)
-
-# Technologies Used
-
-- [HTML5](https://html.spec.whatwg.org/multipage/) was used to create the content and structure of the website.
-
-- [CSS3](https://www.w3.org/Style/CSS/) was used to style the website.
-
-- [Balsamiq](https://balsamiq.com/) was used to design the wireframes of the website.
-
-- [Figma](https://www.figma.com/) was used to design the mockup, logo and favicon of the website.
-
-- [Am I Responsive](https://ui.dev/amiresponsive) was used to take screenshots of the website in different screen sizes.
-
-- [Chrome DevTools](https://developers.google.com/web/tools) was used during the development phase of the website for  debugging and responsiveness, and to test performance and accessibility on different screen sizes.
-
-- [Git](https://git-scm.com/) was used as the version control system in the terminal.
-
-- [GitHub](https://github.com/) was used to create store the projec"s repository and track the changes.
-
-- [GitPod](https://www.gitpod.io/) was used as a developer platform for remote development.
-
-- [Google Fonts](https://fonts.google.com/) was used to determine the fonts and to import them via Google Fonts application programming interface (API) link.
-
-- [Font Awesome](https://fontawesome.com/) was used to select the icons and import them with the content delivery network (CDN) link provided.
-
-- [Storyset](https://storyset.com/) was used to select and colorize the illustrations used on the website and to download them.
-
-- [Unsplash](https://unsplash.com/) was used as the image source for the website.
-
-[Back to contents](<#contents>)
-
-# Testing
-
-- Please refer [here](TESTING.md) for more information on testing of the Firenze Housing website.
 
 [Back to contents](<#contents>)
 
@@ -330,6 +293,43 @@ The formdump page can also be seen as the form validation page. The user is dire
 ![Services Page](assets/images/features/formdump_page.png)
 
 [Back to contents](<#contents>)
+
+# Technologies Used
+
+- [HTML5](https://html.spec.whatwg.org/multipage/) was used to create the content and structure of the website.
+
+- [CSS3](https://www.w3.org/Style/CSS/) was used to style the website.
+
+- [Balsamiq](https://balsamiq.com/) was used to design the wireframes of the website.
+
+- [Figma](https://www.figma.com/) was used to design the mockup, logo and favicon of the website.
+
+- [Am I Responsive](https://ui.dev/amiresponsive) was used to take screenshots of the website in different screen sizes.
+
+- [Chrome DevTools](https://developers.google.com/web/tools) was used during the development phase of the website for  debugging and responsiveness, and to test performance and accessibility on different screen sizes.
+
+- [Git](https://git-scm.com/) was used as the version control system in the terminal.
+
+- [GitHub](https://github.com/) was used to create store the projec"s repository and track the changes.
+
+- [GitPod](https://www.gitpod.io/) was used as a developer platform for remote development.
+
+- [Google Fonts](https://fonts.google.com/) was used to determine the fonts and to import them via Google Fonts application programming interface (API) link.
+
+- [Font Awesome](https://fontawesome.com/) was used to select the icons and import them with the content delivery network (CDN) link provided.
+
+- [Storyset](https://storyset.com/) was used to select and colorize the illustrations used on the website and to download them.
+
+- [Unsplash](https://unsplash.com/) was used as the image source for the website.
+
+[Back to contents](<#contents>)
+
+# Testing
+
+- Please refer [here](TESTING.md) for more information on testing of the Firenze Housing website.
+
+[Back to contents](<#contents>)
+
 
 # Deployment
 
