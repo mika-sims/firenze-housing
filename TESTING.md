@@ -68,15 +68,15 @@ All pages of the website have been tested separately by Google DevTools' Google 
 
 * Services Page
 
-![Google Lighthouse](assets/images/lighthouse_test/lighthouse_services_page_mobile.png)
+  ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_services_page_mobile.png)
 
 * Contact Page
 
-![Google Lighthouse](assets/images/lighthouse_test/lighthouse_contact_page_mobile.png)
+  ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_contact_page_mobile.png)
 
 * Formdump Page
 
-![Google Lighthouse](assets/images/lighthouse_test/lighthouse_formdump_page_mobile.png)
+  ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_formdump_page_mobile.png)
 
 ---
 
@@ -84,19 +84,19 @@ All pages of the website have been tested separately by Google DevTools' Google 
 
 * Home Page
 
-![Google Lighthouse](assets/images/lighthouse_test/lighthouse_main_page_desktop.png)
+  ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_main_page_desktop.png)
 
 * Services Page
 
-![Google Lighthouse](assets/images/lighthouse_test/lighthouse_services_page_desktop.png)
+  ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_services_page_desktop.png)
 
 * Contact Page
 
-![Google Lighthouse](assets/images/lighthouse_test/lighthouse_contact_page_desktop.png)
+  ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_contact_page_desktop.png)
 
 * Formdump Page
 
-![Google Lighthouse](assets/images/lighthouse_test/lighthouse_formdump_page_desktop.png)
+   ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_formdump_page_desktop.png)
 
 [Back to contents](<#contents>)
 
