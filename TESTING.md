@@ -64,7 +64,7 @@ All pages of the website have been tested separately by Google DevTools' Google 
 
 * Home Page
 
-![Google Lighthouse](assets/images/lighthouse_test/lighthouse_main_page_mobile.png)
+  ![Google Lighthouse](assets/images/lighthouse_test/lighthouse_main_page_mobile.png)
 
 * Services Page
 
