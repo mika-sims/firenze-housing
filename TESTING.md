@@ -157,7 +157,7 @@ The website was manually tested in Google Chrome, Mozilla Firefox, Microsoft Edg
 
     * The navigation menu on all pages is always fixed at the top of the page. This allows the user to easily navigate to the pages they want to go to.
 
-    * With the "Contact Us" button on the main page, user can easily go to the contact form page and contact Firenze Housing.
+    * With the "Services" button on the main page, user can easily go to the Services page.
 
     * User can easily access Firenze Housing's social media accounts with the social media links in the footer section of the page.
 
