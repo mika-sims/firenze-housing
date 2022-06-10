@@ -297,6 +297,16 @@ The formdump page can also be seen as the form validation page. The user is dire
 
 [Back to contents](<#contents>)
 
+## Future Features
+
+- Independent pages with much more detailed explanations and pictures for all individual announcement.
+
+- Online booking option.
+
+- Viewing the details of the services with the side scrolling feature.
+
+- A system that allows independent users to add announcements in order to increase the number of announcements in the database.
+
 # Technologies Used
 
 - [HTML5](https://html.spec.whatwg.org/multipage/) was used to create the content and structure of the website.
