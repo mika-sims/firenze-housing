@@ -97,13 +97,11 @@ A minimal color scheme and typography have been chosen to create a simple, eye-c
 
 ### Colour Scheme
 
-![Dark shade of green-cyan](assets/images/colour_scheme/dark_shade_of_green_cyan.png) ![Medium light shade of orange](assets/images/colour_scheme/medium_light_shade_of_orange.png)  ![Medium light shade of orange](assets/images/colour_scheme/aquamarine.png)
+![Dark shade of green-cyan](assets/images/colour_scheme/dark_shade_of_green_cyan.png) ![Medium light shade of orange](assets/images/colour_scheme/medium_light_shade_of_orange.png)
 
 - The two main colors in the logo design are used throughout the site to separate sections and objects from each other. The dark shade of green-cyan color with **#006161** hex code is densely used in the background and title text of the main sections. In addition, the colors of these illustrations have been adjusted accordingly in order to ensure that the illustrations in different sections are compatible with the page layout.
 
-- The second main color, **#ff8749** hex coded medium light shade of orange, is mostly used to highlight the buttons. This choice was made because it is a more attractive color than the dark green color.
-
-- Aquamarine with the **#7fffd4** hex code is used to highlight the price and booking buttons in the services section.
+- The second main color, **#ff8749** hex coded medium light shade of orange, is mostly used to highlight the buttons. This color i also used to highlight the price and booking buttons in the services section. This choice was made because it is a more attractive color than the dark green color.
 
 - Black color is used in the general font and icons of the site.
 
@@ -111,7 +109,7 @@ A minimal color scheme and typography have been chosen to create a simple, eye-c
 
 ### Typography
 
-- In order to have a simple design, two fonts are used. Syncopate was used for the main title and sub-titles, and Serif was used as its fallback. In order to attract attention to the main headings,underline decoration was applied. This is not implemented in the subheadings.
+- In order to have a simple design, two fonts are used. Syncopate was used for the main title and sub-titles, and Serif was used as its fallback.
 
 - All remaining sections of the website (navigation menu, descriptions, etc.) use Yanone Kaffeesatz and Sans-serif as fallback font.
 
@@ -165,29 +163,30 @@ The site consists of index.html, services.html, contact.html pages.
 
 ### Navigation Bar
 
-![Navigation Bar](assets/images/structure/navigation_structure.png)
+- The Navigation menu is fixed at the top of all pages to provide the user with easy navigation between the pages. In order to determine which page the user is currently on, there is an orange underline effect below the name of the current page.
 
-The Navigation menu is fixed at the top of all pages to provide the user with easy navigation between the pages. In order to determine which page the user is currently on, there is an orange under-line effect under the name of the current page.
-
-![Navigation Bar](assets/images/structure/navigation_mobile_structure.png)
+  ![Navigation Bar](assets/images/structure/navigation_structure.png)
 
 - On screens with 719 px and below, the logo goes over the navigation menu links.
+
+  ![Navigation Bar](assets/images/structure/navigation_mobile_structure.png)
 
 [Back to contents](<#contents>)
 
 ### Sub navigations
 
-![Contact Us Navigation](assets/images/structure/contact_us_navigation_btn.png)
+- The "Services" sub-navigation on the main page is for quickly directing the user to the Services page.
 
-- The "Contact Us" sub-navigation on the main page is for quickly directing the user to the contact form.
-
-![Contact Us Navigation](assets/images/structure/main_services_sub_nav.png)
+  ![Services Main Navigation](assets/images/structure/main_navigation_btn.png)
 
 - The 4 icons in the services section of the home page quickly guide the user to the desired service section. In the desktop version, when the user hover over any of these icons, the color of the icon changes.
 
-![Contact Us Navigation](assets/images/structure/services_navigation.png)   ![Contact Us Navigation](assets/images/structure/services_navigation+2.png)
+  ![Sub Navigation](assets/images/structure/main_services_sub_nav.png)
 
-- When the services section in the navbar menu is clicked, a detailed explanation about the service types offered is displayed on the new page that opens. The "Book Now" and "INFO" sub-navigations on the pictures and illustrations direct the user to the contact form where they can contact Firenze Housing and request the desired service.
+- When the Services section in the navbar menu is clicked, a detailed explanation about the service types offered is displayed on the new page that opens. The "Book Now" and "INFO" sub-navigations on the pictures and illustrations direct the user to the contact form where they can contact Firenze Housing and request the desired service.
+
+
+  ![Sub Navigation](assets/images/structure/services_navigation.png) ![Sub Navigation](assets/images/structure/services_navigation_2.png)
 
 [Back to contents](<#contents>)
 
@@ -247,7 +246,6 @@ According to research by Nielsen Norman Group, a large majority of website users
 
 **>>>[More](https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394)** about F-Shaped Pattern for Reading Content
 
-
 ![Home Page](assets/images/features/home_page.png)
 
 [Back to contents](<#contents>)
@@ -294,23 +292,23 @@ It is fully responsive, fixed at the top of all pages on the site, and includes 
 
 ## Services 
 
-The Services section in the navigation menu is a direct link  to the services. After clicking this link, the user is directed to a Services page where he can see the advertisements and details on the Firenze Housing website.
+The Services section in the navigation menu is a direct link  to the services. After clicking this link, the users is directed to a Services page where they can see the advertisements and details on the Firenze Housing website.
 
 On the Services page, the user first sees the information and details about the Rental Apartments.
 
 ![Services Page](assets/images/features/services_page_main.png)
 
-When user scroll down, she/he will find detailed information about Single Bed Room, Double Bed Room and Storage services. There is also a Find Us section at the end of the Services page.
+When users scroll down, they will find detailed information about Single Bed Room, Double Bed Room and Storage services. There is also a Find Us section at the end of the Services page.
 
 - The Book Now and INFO links seen on the sections direct the user to the Contact page to contact Firenze Housing regarding the service they want to receive.
 
-- Single Bed Room
+- Single Bed Room Section
 ![Services Page](assets/images/features/services_page_single.png)
 
-- Double Bed Room
+- Double Bed Room Section
 ![Services Page](assets/images/features/services_page_double.png)
 
-- Storage
+- Storage Section
 ![Services Page](assets/images/features/services_page_storage.png)
 
 [Back to contents](<#contents>)
