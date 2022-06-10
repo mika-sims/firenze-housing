@@ -203,6 +203,9 @@ The primary purpose of the Firenze Housing website is to provide a simple and pu
 
 [Back to contents](<#contents>)
 
+## Existing Features
+---
+
 - ## Home Page
 
 According to research by Nielsen Norman Group, a large majority of website users read written content as an F-shape pattern. The home page of Firenze Housing website has also been designed in accordance with this pattern.
